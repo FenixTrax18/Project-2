@@ -1,4 +1,8 @@
 $(document).ready(function() {
+    $.get("/api/user_data").then(data => {
+        $(".member-name").text(data.email);
+      });
+
     $("#search-button").on("click", function() {
       var searchValue = $("#search-value").val();
   
