@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css">
   <link href="stylesheets/style.css" rel="stylesheet">
+
+  <title>Mars Weather</title>
 </head>
 
 <body>
@@ -22,7 +24,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-3">
-        <h2>Welcome <span class="member-name"></span></h2>
+        <h1>Welcome <span class="member-name"></span></h1>
       </div>
     </div>
   </div>
@@ -30,8 +32,32 @@
   <!-- Possible carousel of pictures -->
   <!-- Ability to email photos to self -->
 
+  <header class="container-fluid text-center text-white bg-dark p-2">
+    <h2>Mars </h2>
+  </header>
+
+  <div class="container-fluid">
+    <div class="row">
+      <aside class="col-lg-3 bg-light">
+        <h5 class="mt-1">Search for a City:</h5>
+        <div class="form-inline form-group">
+          <input class="form-control" type="text" id="search-value" />
+          <button class="btn btn-primary" id="search-button"> <i class="fa fa-search"></i> </button>
+        </div>
+
+        <ul class="list-group history"></ul>
+      </aside>
+
+      <div class="col-lg-9">
+        <div id="today" class="mt-3"></div>
+        <div id="forecast" class="mt-3"></div>
+      </div>
+    </div>
+  </div>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript" src="js/members.js"></script>
+  <script src="./js/weatherScript.js"></script>
+  <!-- <script type="text/javascript" src="js/members.js"></script> -->
 
 </body>
 
