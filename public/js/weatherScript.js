@@ -1,7 +1,7 @@
 $(document).ready(function() {
-    $.get("/api/user_data").then(data => {
-        $(".member-name").text(data.email);
-      });
+  $.get("/api/user_data").then(data, function {
+$(".member-name").text(data.email);
+});
 
     $("#search-button").on("click", function() {
       var searchValue = $("#search-value").val();
@@ -21,10 +21,10 @@ $(document).ready(function() {
       $(".history").append(li);
     }
   
-    function searchWeather(searchValue) {
+function searchWeather(searchValue) {
       $.ajax({
         type: "GET",
-        // url: "https://api.nasa.gov/insight_weather/?api_key=HWIQtryDmQ136bRdLzdriQL1mIeaKvEuJfckD6Sb&feedtype=json&ver=1.0",
+        //  url: "https://api.nasa.gov/insight_weather/?api_key=HWIQtryDmQ136bRdLzdriQL1mIeaKvEuJfckD6Sb&feedtype=json&ver=1.0",
         url: "http://api.openweathermap.org/data/2.5/weather?q=" + searchValue + "&appid=7ba67ac190f85fdba2e2dc6b9d32e93c&units=imperial",
         dataType: "json",
         success: function(data) {
