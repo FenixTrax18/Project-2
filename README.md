@@ -27,7 +27,7 @@ Looking to vacation to Mars? Check the weather for your stay before you go! (App
 ## Installation: 
 ### Use the following instruction to install: 
 
-```App is live on https://team-5-project-2.herokuapp.com/```
+App is live on https://team-5-project-2.herokuapp.com/
 
 
 
