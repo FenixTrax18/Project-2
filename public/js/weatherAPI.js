@@ -29,7 +29,7 @@ $(document).ready(() => {
         var solObject = response[solNum];
         // console.log(solObject);
 
-        $(".marsDay").html("<h1>" + " Mars Day: " + response.sol_keys[i] + "</h1>");
+        $(".marsDay").html("<h1>" + " Mars Day Number: " + response.sol_keys[i] + "</h1>");
         console.log("Mars Day Number: ", response.sol_keys[i]);
 
         // $(".city").html("<h1>" + " Mars Day: " + solObject[i] + "</h1>");
@@ -39,11 +39,11 @@ $(document).ready(() => {
         $(".dateTime").text("Date and Time: " + response[548].First_UTC);
         console.log("Date, Time: ", response[548].First_UTC);
 
-        $(".high").text("High Temperature: " + response[548].AT.mn + " F");
-        console.log("Av Temp: ", response[548].AT.mx);
+        $(".high").text("High Temperature: " + response[548].AT.mx + " F");
+        console.log("Av High Temp: ", response[548].AT.mx);
 
         $(".low").text("Low Temperature: " + response[548].AT.mn + " F");
-        console.log("Av Temp: ", response[548].AT.mn);
+        console.log("Av Low Temp: ", response[548].AT.mn);
 
       }
       //will only show correct current day with [0] in sol_keys
