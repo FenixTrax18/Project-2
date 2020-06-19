@@ -19,7 +19,7 @@
 
 
 ## Description of Project 2 Team 5 (App Name TBD):
-Looking to vacation to Mars? Check the weather for your stay before you go! (App Name), your daily does of Mars info. View weather trends, forecast, and data charts. View photos for a more inticing visit! 
+Looking to vacation to Mars? Check the weather for your stay before you go! (App Name), your daily does of Mars info. View weather trends, forecast, and data charts. View photos for a more enticing visit! 
 
 
 
