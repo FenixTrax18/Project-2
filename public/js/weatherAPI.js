@@ -39,7 +39,7 @@ $(document).ready(() => {
         // console.log("Mars Day Number: ", solObject[i]);
         //Will work with response[548] but not with [i] or any of the above variables
         $(".dateTime").text("Date and Time: " + solObject.First_UTC);
-        console.log("Date, Time: ", solObject.First_UTC);
+        console.log("Date, Time: ", solObject.sol.First_UTC);
 
         $(".high").text("High: " + solObject.AT.mx + " F");
         console.log("High: ", solObject.AT.mx);
@@ -50,7 +50,7 @@ $(document).ready(() => {
 
 
         $("#day0Date").html("Mars Day Number: " + solNum);
-        console.log("Mars Day Number: ", solObject);
+        console.log("Mars Day Number: ", solObject[i]);
 
         
         $("#day0Date").html("Mars Day Number: " + solNum);
