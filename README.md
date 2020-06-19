@@ -1,5 +1,4 @@
-
-  ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)
+![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)
 
 # Project 2 Team 5 (App Name TBD)
 
@@ -60,4 +59,3 @@ cheryld433, FenixTrax18, AFeese, mathcodes
 
 ### Questions? Contact:
 (enter contact information for all contributors)
-
