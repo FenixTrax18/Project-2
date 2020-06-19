@@ -32,18 +32,22 @@ $(document).ready(() => {
         $(".marsDay").html("<h1>" + " Mars Day Number: " + response.sol_keys[i] + "</h1>");
         console.log("Mars Day Number: ", response.sol_keys[i]);
 
+        $(".season").html("<h2>" + "Current Mars Season: " + response[548+i].Season + "</h2>");
+        // console.log("Season: ", response[548+i].Season);
+
         // $(".city").html("<h1>" + " Mars Day: " + solObject[i] + "</h1>");
         // console.log("Mars Day Number: ", solObject[i]);
 
         //Will work with response[548] but not with [i] or any of the above variables
-        $(".dateTime").text("Date and Time: " + response[548].First_UTC);
-        console.log("Date, Time: ", response[548].First_UTC);
+        $(".dateTime").text("Date and Time: " + response[548+i].First_UTC);
+        console.log("Date, Time: ", response[548+i].First_UTC);
 
-        $(".high").text("High Temperature: " + response[548].AT.mx + " F");
-        console.log("Av High Temp: ", response[548].AT.mx);
+        $(".high").text("High: " + response[548+i].AT.mx + " F");
+        console.log("High: ", response[548+i].AT.mx);
 
-        $(".low").text("Low Temperature: " + response[548].AT.mn + " F");
-        console.log("Av Low Temp: ", response[548].AT.mn);
+        $(".low").text("Low: " + response[548+i].AT.mn + " F");
+        console.log("Low: ", response[548+i].AT.mn);
+        console.log("________________________")
 
       }
       //will only show correct current day with [0] in sol_keys
