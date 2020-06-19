@@ -37,7 +37,6 @@ $(document).ready(() => {
 
         // $(".city").html("<h1>" + " Mars Day: " + solObject[i] + "</h1>");
         // console.log("Mars Day Number: ", solObject[i]);
-
         //Will work with response[548] but not with [i] or any of the above variables
         $(".dateTime").text("Date and Time: " + response[548+i].First_UTC);
         console.log("Date, Time: ", response[548+i].First_UTC);
@@ -49,18 +48,36 @@ $(document).ready(() => {
         console.log("Low: ", response[548+i].AT.mn);
         console.log("________________________")
 
+
+        $("#day0Date").html("Mars Day Number: " + response.sol_keys[i]);
+        console.log("Mars Day Number: ", response.sol_keys[i]);
+        $("#day0High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day0Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+        $("#day1Date").html("Mars Day Number: " + response.sol_keys[i]);
+        $("#day1High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day1Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+        $("#day2Date").html("Mars Day Number: " + response.sol_keys[i]);
+        $("#day2High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day2Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+        $("#day3Date").html("Mars Day Number: " + response.sol_keys[i]);
+        $("#day3High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day3Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+        $("#day4Date").html("Mars Day Number: " + response.sol_keys[i]);
+        $("#day4High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day4Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+        $("#day5Date").html("Mars Day Number: " + response.sol_keys[i]);
+        $("#day5High").text("High: " + response[548+i].AT.mx + "°F");
+        $("#day5Low").text("Low: " + response[548+i].AT.mn + "°F");
+
+
+
+
       }
-      //will only show correct current day with [0] in sol_keys
-      // $(".city").html("<h1>" + " Mars Day: " + response.sol_keys[i] + "</h1>");
-      // console.log("Mars Day Number: ", response.sol_keys[i]);
-
-      // //will only show correct data with response[548] or current Mars day number
-      // $(".wind").text("Date and Time: " + response[548].First_UTC);
-      // console.log("Date, Time: ", response[548].First_UTC);
-
-
-      // $(".humidity").text("Average Temperature: " + response[548].AT.av);
-      // console.log("Av Temp: ", response[548].AT.av);
     });
 
   // Log the data in the console as well
