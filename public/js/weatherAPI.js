@@ -29,20 +29,20 @@ $(document).ready(() => {
         var solObject = response[solNum];
         // console.log(solObject);
 
-        $(".city").html("<h1>" + " Mars Day: " + response.sol_keys[i] + "</h1>");
+        $(".marsDay").html("<h1>" + " Mars Day: " + response.sol_keys[i] + "</h1>");
         console.log("Mars Day Number: ", response.sol_keys[i]);
 
         // $(".city").html("<h1>" + " Mars Day: " + solObject[i] + "</h1>");
         // console.log("Mars Day Number: ", solObject[i]);
 
         //Will work with response[548] but not with [i] or any of the above variables
-        $(".wind").text("Date and Time: " + response[548].First_UTC);
+        $(".dateTime").text("Date and Time: " + response[548].First_UTC);
         console.log("Date, Time: ", response[548].First_UTC);
 
-        $(".humidity").text("High Temperature: " + response[548].AT.mn);
-        console.log("Av Temp: ", response[548].AT.mn);
-        
-        $(".humidity").text("High Temperature: " + response[548].AT.mn);
+        $(".high").text("High Temperature: " + response[548].AT.mn + " F");
+        console.log("Av Temp: ", response[548].AT.mx);
+
+        $(".low").text("Low Temperature: " + response[548].AT.mn + " F");
         console.log("Av Temp: ", response[548].AT.mn);
 
       }
