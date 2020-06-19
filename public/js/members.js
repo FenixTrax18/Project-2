@@ -1,3 +1,7 @@
+
+//Function was copied/pasted to weatherAPI.js to run when members.html page loads in browser.
+
+
 // $(document).ready(() => {
 //   // This file just does a GET request to figure out which user is logged in
 //   // and updates the HTML on the page

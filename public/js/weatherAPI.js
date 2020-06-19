@@ -1,7 +1,14 @@
 //Same as script in marsTestData.html.
 //File communicates with members.html!!!
-
 $(document).ready(() => {
+
+  // This file just does a GET request to figure out which user is logged in
+  // and updates the HTML on the page
+  $.get("/api/user_data").then(data => {
+    $(".member-name").text(data.email);
+  });
+
+
   //NASA API key:
   // var APIKey = "HWIQtryDmQ136bRdLzdriQL1mIeaKvEuJfckD6Sb";
   var queryURL = "https://api.nasa.gov/insight_weather/?api_key=HWIQtryDmQ136bRdLzdriQL1mIeaKvEuJfckD6Sb&feedtype=json&ver=1.0+";
@@ -16,7 +23,7 @@ $(document).ready(() => {
       // console.log(queryURL);
       // console.log(response);
       // console.log(response.sol_keys.length);
-      
+
       for (var i = 0; i < response.sol_keys.length; i++) {
         var solNum = response.sol_keys[i];
         var solObject = response[solNum];
@@ -32,6 +39,12 @@ $(document).ready(() => {
         $(".wind").text("Date and Time: " + response[548].First_UTC);
         console.log("Date, Time: ", response[548].First_UTC);
 
+        $(".humidity").text("High Temperature: " + response[548].AT.mn);
+        console.log("Av Temp: ", response[548].AT.mn);
+        
+        $(".humidity").text("High Temperature: " + response[548].AT.mn);
+        console.log("Av Temp: ", response[548].AT.mn);
+
       }
       //will only show correct current day with [0] in sol_keys
       // $(".city").html("<h1>" + " Mars Day: " + response.sol_keys[i] + "</h1>");
@@ -41,16 +54,14 @@ $(document).ready(() => {
       // $(".wind").text("Date and Time: " + response[548].First_UTC);
       // console.log("Date, Time: ", response[548].First_UTC);
 
-      // $(".humidity").text("High Temperature: " + response[548].AT.mn);
-      // console.log("Av Temp: ", response[548].AT.mn);
 
       // $(".humidity").text("Average Temperature: " + response[548].AT.av);
       // console.log("Av Temp: ", response[548].AT.av);
     });
 
-      // Log the data in the console as well
-      // console.log("Wind Speed: " + response.wind.speed);
-      // console.log("Humidity: " + response.main.humidity);
-      // console.log("Temperature (F): " + tempF);
-    // );
+  // Log the data in the console as well
+  // console.log("Wind Speed: " + response.wind.speed);
+  // console.log("Humidity: " + response.main.humidity);
+  // console.log("Temperature (F): " + tempF);
+  // );
 });
