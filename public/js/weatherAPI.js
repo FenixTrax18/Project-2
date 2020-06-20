@@ -35,19 +35,19 @@ $(document).ready(() => {
       // console.log(solObject);
       var day = $("<h1>");
       day.html("Mars Day Number: " + solNum);
-      $("#test").append(day);
+      $(".test").append(day);
 
       var date = $("<p>");
       date.html("Date, Time: " + solObject.First_UTC);
-      $("#test").append(date);
+      $(".test").append(date);
 
       var high = $("<p>");
       high.html("High: " + solObject.AT.mx + "°F");
-      $("#test").append(high);
+      $(".test").append(high);
 
       var low = $("<p>");
       low.html("Low: " + solObject.AT.mn + "°F");
-      $("#test").append(low);
+      $(".test").append(low);
     }
   });
 });
