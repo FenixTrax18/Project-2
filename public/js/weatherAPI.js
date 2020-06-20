@@ -19,70 +19,37 @@ $(document).ready(() => {
     method: "GET"
   }).then(function (response) {
 
-      // console.log(queryURL);
-      // console.log(response);
-      // console.log(response.sol_keys.length);
+    // console.log(queryURL);
+    // console.log(response);
+    var solNum = response.sol_keys[0];
+    console.log(solNum)
+    var solObject = response[solNum];
+    console.log(solObject.First_UTC);
 
-      for (var i = 0; i < response.sol_keys.length; i++) {
-        var solNum = response.sol_keys[i];
-        var solObject = response[solNum];
-        // console.log(solObject);
+    var season = $("<div>");
+    season.html("Current Mars Season: " + solObject.Season);
+    $("#maintemp").append(season);
+    // console.log("Season: ", solObject.Season);
 
-        $(".marsDay").html("<h1>" + " Mars Day Number: " + solNum + "</h1>");
-        // console.log("Mars Day Number: ", solNum);
+    for (var i = 0; i < response.sol_keys.length; i++) {
+      var solNum = response.sol_keys[i];
+      var solObject = response[solNum];
+      // console.log(solObject);
+      var day = $("<div>");
+      day.html("Mars Day Number: " + solNum);
+      $("#test").append(day);
 
-        $(".season").html("<h2>" + "Current Mars Season: " + solObject.Season + "</h2>");
-        // console.log("Season: ", solObject.Season);
+      var date = $("<p>");
+      date.html("Date, Time: " + solObject.First_UTC);
+      $("#test").append(date);
 
-        // $(".city").html("<h1>" + " Mars Day: " + solObject[i] + "</h1>");
-        // console.log("Mars Day Number: ", solObject[i]);
-        //Will work with response[548] but not with [i] or any of the above variables
-        $(".dateTime").text("Date and Time: " + solObject.First_UTC);
-        console.log("Date, Time: ", solObject.sol.First_UTC);
+      var high = $("<p>");
+      high.html("High: " + solObject.AT.mx + "°F");
+      $("#test").append(high);
 
-        $(".high").text("High: " + solObject.AT.mx + " F");
-        console.log("High: ", solObject.AT.mx);
-
-        $(".low").text("Low: " + solObject.AT.mn + " F");
-        console.log("Low: ", solObject.AT.mn);
-        console.log("________________________");
-
-
-        $("#day0Date").html("Mars Day Number: " + solNum);
-        console.log("Mars Day Number: ", solObject[i]);
-
-        
-        $("#day0Date").html("Mars Day Number: " + solNum);
-      }
-    });
-
-  // $("#day0High").text("High: " + solObject[0].AT.mx + "°F");
-  // $("#day0Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-  // $("#day1Date").html("Mars Day Number: " + response.sol_keys[i]);
-  // $("#day1High").text("High: " + response[548+i].AT.mx + "°F");
-  // $("#day1Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-  // $("#day2Date").html("Mars Day Number: " + response.sol_keys[i]);
-  // $("#day2High").text("High: " + response[548+i].AT.mx + "°F");
-  // $("#day2Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-  // $("#day3Date").html("Mars Day Number: " + response.sol_keys[i]);
-  // $("#day3High").text("High: " + response[548+i].AT.mx + "°F");
-  // $("#day3Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-  // $("#day4Date").html("Mars Day Number: " + response.sol_keys[i]);
-  // $("#day4High").text("High: " + response[548+i].AT.mx + "°F");
-  // $("#day4Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-  // $("#day5Date").html("Mars Day Number: " + response.sol_keys[i]);
-  // $("#day5High").text("High: " + response[548+i].AT.mx + "°F");
-  // $("#day5Low").text("Low: " + response[548+i].AT.mn + "°F");
-
-
-  // Log the data in the console as well
-  // console.log("Wind Speed: " + response.wind.speed);
-  // console.log("Humidity: " + response.main.humidity);
-  // console.log("Temperature (F): " + tempF);
-  // );
+      var low = $("<p>");
+      low.html("Low: " + solObject.AT.mn + "°F");
+      $("#test").append(low);
+    }
+  });
 });
