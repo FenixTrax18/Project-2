@@ -26,9 +26,9 @@ $(document).ready(() => {
     var solObject = response[solNum];
     console.log(solObject.First_UTC);
 
-    var season = $("<div>");
-    season.html("Current Mars Season: " + solObject.Season);
-    $("#maintemp").append(season);
+    // var season = $("<div>");
+    // season.html("Current Mars Season: " + solObject.Season);
+    // $("#maintemp").append(season);
     // console.log("Season: ", solObject.Season);
 
     for (var i = 0; i < response.sol_keys.length; i++) {
@@ -37,7 +37,7 @@ $(document).ready(() => {
       // console.log(solObject);
       var day = $("<div>");
       day.html("Mars Day Number: " + solNum);
-      $("#cardTitle").append(day);
+      $("#test").append(day);
 
       var date = $("<p>");
       date.html("Date, Time: " + solObject.First_UTC);
