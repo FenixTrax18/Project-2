@@ -32,5 +32,12 @@ h5 {
 .btn-default {
     background-color: #ee5f00;
     color: black;
-    border-color: #e2e2e2;
+    border-color: #222222;
+}
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-group.open .dropdown-toggle.btn-default {
+    background-color: black;
+    border-color: #ee5f00;
 }
