@@ -1,4 +1,26 @@
 form.signup,
 form.login {
-  margin-top: 50px;
+    margin-top: 50px;
+}
+
+body {
+    color: rgba(206, 0, 0, 0.966);
+    background-color: #111;
+    /* background-image: url("https://www.jpl.nasa.gov/spaceimages/images/largesize/PIA14293_hires.jpg"); */
+    /* background-image: url("https://media1.tenor.com/images/901cd29a8d7c053042b5d40f0f1511e6/tenor.gif?itemid=15575909"); */
+    /* background-image: url("https://www.universetoday.com/wp-content/uploads/2014/12/Jack-Fusco-Lake-Minnewanka-Star-Trails.jpg"); */
+    /* background-image: url("https://www.popsci.com/resizer/1GACg7oyHMhn2NmJlz_140jaXwk=/925x709/filters:focal(493x378:494x379)/arc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com/public/ALCUV5GMWYFDD6JKSTIQKPRISI.jpg"); */
+    /* background-image: url("https://www.nasa.gov/images/content/690958main_p1237a1.jpg"); */
+    /* background-image: url(""); */
+    /* background-image: url(""); */
+}
+
+h1,
+h2,
+.h2 {
+    color: rgba(206, 0, 0, 0.966);
+}
+
+h5 {
+    color: rgba(206, 0, 0, 0.966);
 }
