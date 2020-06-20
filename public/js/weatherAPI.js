@@ -22,9 +22,7 @@ $(document).ready(() => {
     // console.log(queryURL);
     // console.log(response);
     var solNum = response.sol_keys[0];
-    console.log(solNum)
     var solObject = response[solNum];
-    console.log(solObject.First_UTC);
 
     // var season = $("<div>");
     // season.html("Current Mars Season: " + solObject.Season);
