@@ -24,35 +24,122 @@ $(document).ready(() => {
     var solNum = response.sol_keys[0];
     var solObject = response[solNum];
 
-    // var season = $("<div>");
-    // season.html("Current Mars Season: " + solObject.Season);
-    // $("#maintemp").append(season);
-    // console.log("Season: ", solObject.Season);
+    var season = $("<div>");
+    season.html("Current Mars Season: " + solObject.Season);
+    $("#maintemp").append(season);
+    console.log("Season: ", solObject.Season);
 
-    // for (var i = 0; i < response.sol_keys.length; i++) {
-      var solNum = response.sol_keys[0];
-      var solObject = response[solNum];
-      // console.log(solObject);
-      var day = $("<h1>");
-      day.html("Mars Day Number: " + solNum);
-      // $(".card-body:nth-child(0) .test").append(day);
-      // $(".card-body:nth-child(1) .test").append(day);
-      // $(".card-body:nth-child(2) .test").append(day);
-      // $(".card-body:nth-child(3) .test").append(day);
 
-      $(".test").append(day);
+    //DAY ONE//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[0]);
+    $(".test0").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[0]].First_UTC);
+    $(".test0").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[0]].AT.mx + "°F");
+    $(".test0").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[0]].AT.mn + "°F");
+    $(".test0").append(low);
 
-      var date = $("<p>");
-      date.html("Date, Time: " + solObject.First_UTC);
-      $(".test").append(date);
+    //DAY TWO//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[1]);
+    $(".test1").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[1]].First_UTC);
+    $(".test1").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[1]].AT.mx + "°F");
+    $(".test1").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[1]].AT.mn + "°F");
+    $(".test1").append(low);
 
-      var high = $("<p>");
-      high.html("High: " + solObject.AT.mx + "°F");
-      $(".test").append(high);
+    //DAY THREE//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[2]);
+    $(".test2").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[2]].First_UTC);
+    $(".test2").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[2]].AT.mx + "°F");
+    $(".test2").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[2]].AT.mn + "°F");
+    $(".test2").append(low);
 
-      var low = $("<p>");
-      low.html("Low: " + solObject.AT.mn + "°F");
-      $(".test").append(low);
-    // }
+    //DAY FOUR//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[3]);
+    $(".test3").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[3]].First_UTC);
+    $(".test3").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[3]].AT.mx + "°F");
+    $(".test3").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[3]].AT.mn + "°F");
+    $(".test3").append(low);
+
+    //DAY FIVE//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[4]);
+    $(".test4").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[4]].First_UTC);
+    $(".test4").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[4]].AT.mx + "°F");
+    $(".test4").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[4]].AT.mn + "°F");
+    $(".test4").append(low);
+
+    //DAY SIX//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[5]);
+    $(".test5").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[5]].First_UTC);
+    $(".test5").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[5]].AT.mx + "°F");
+    $(".test5").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[5]].AT.mn + "°F");
+    $(".test5").append(low);
+
+    //DAY SEVEN//
+    var day = $("<h3>");
+    day.html("Mars Day Number: " + response.sol_keys[6]);
+    $(".test6").append(day);
+    var date = $("<p>");
+    date.html("Date, Time: " + response[response.sol_keys[6]].First_UTC);
+    $(".test6").append(date);
+    var high = $("<p>");
+    high.html("High: " + response[response.sol_keys[6]].AT.mx + "°F");
+    $(".test6").append(high);
+    var low = $("<p>");
+    low.html("Low: " + response[response.sol_keys[6]].AT.mn + "°F");
+    $(".test6").append(low);
+
   });
 });
+
+
+
+ // $(".card-body:nth-child(1) .test").append(day);
+
+//POTENTIALLY USED FOR LATER//
+// for (var i = 2; i < 3; i++) {
+
+    // var solNum = response.sol_keys[i];
+    // var solObject = response[solNum];
+    // console.log(solObject);
+    // }
+
