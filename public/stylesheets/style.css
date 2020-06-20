@@ -18,9 +18,24 @@ body {
 h1,
 h2,
 .h2 {
-    color: rgba(206, 0, 0, 0.966);
+    color: #ee5f00;
 }
 
 h5 {
-    color: rgba(206, 0, 0, 0.966);
+    color: #ee5f00;
+}
+
+.navbar {
+    background-color: #111;
+}
+
+.navbar-default {
+    background-color: #111;
+    border-color: #222;
+}
+
+.btn-default {
+    background-color: #ee5f00;
+    color: black;
+    border-color: #e2e2e2;
 }
