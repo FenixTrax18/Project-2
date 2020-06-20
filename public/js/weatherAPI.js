@@ -37,7 +37,7 @@ $(document).ready(() => {
       // console.log(solObject);
       var day = $("<div>");
       day.html("Mars Day Number: " + solNum);
-      $("#test").append(day);
+      $("#cardTitle").append(day);
 
       var date = $("<p>");
       date.html("Date, Time: " + solObject.First_UTC);
