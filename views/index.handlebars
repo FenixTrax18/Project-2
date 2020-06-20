@@ -1,51 +1,54 @@
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="/logout">
-          Logout
-        </a>
-      </div>
-    </div>
-  </nav>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h1>Welcome, <span class="member-name"></span></h1>
-      </div>
-    </div>
-  </div>
-
-  <header class="container-fluid text-center text-white bg-dark p-2">
-    <h2></h2>
-    <div class="season"></div>
-    <h2>...Time for a vacation</h2>
-  </header>
-
+<nav class="navbar navbar-default">
   <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-9">
-        {{!-- <div id="maintemp"></div> --}}
-      </div>
+    <div class="navbar-header">
+      <a class="navbar-brand" href="/logout">
+        Logout
+      </a>
     </div>
   </div>
+</nav>
 
-  <br>
-  <hr>
-
-  <div class="container">
-    <div class="row">
-      <div class="card-group">
-
-        {{> card}}
-        {{> card}}
-        {{> card}}
-        {{> card}}
-        {{> card}}
-
-
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1>Welcome, <span class="member-name"></span></h1>
     </div>
   </div>
+</div>
 
-  <script src="/js/weatherAPI.js"></script>
+<header class="container-fluid text-center text-white bg-dark p-2">
+  <h2></h2>
+
+  <!--Season should append here yet is repeating right now-->
+  <div class="season"></div>
+  <h2>...Time for a vacation</h2>
+</header>
+
+<!--Possible main info-->
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-9">
+      {{!-- <div id="maintemp"></div> --}}
+    </div>
+  </div>
+</div>
+
+<br>
+<hr>
+
+<div class="container">
+  <div class="row">
+    <div class="card-group">
+
+      {{> card}}
+      {{> card}}
+      {{> card}}
+      {{> card}}
+      {{> card}}
+
+
+    </div>
+  </div>
+</div>
+
+<script src="/js/weatherAPI.js"></script>

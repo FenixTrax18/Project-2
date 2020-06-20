@@ -24,16 +24,16 @@ $(document).ready(() => {
     var solNum = response.sol_keys[0];
     var solObject = response[solNum];
 
-    // var season = $("<div>");
-    // season.html("Current Mars Season: " + solObject.Season);
-    // $("#maintemp").append(season);
-    // console.log("Season: ", solObject.Season);
+    var season = $("<div>");
+    season.html("Current Mars Season: " + solObject.Season);
+    $("#maintemp").append(season);
+    console.log("Season: ", solObject.Season);
 
     for (var i = 0; i < response.sol_keys.length; i++) {
       var solNum = response.sol_keys[i];
       var solObject = response[solNum];
       // console.log(solObject);
-      var day = $("<div>");
+      var day = $("<h1>");
       day.html("Mars Day Number: " + solNum);
       $("#test").append(day);
 
