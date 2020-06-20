@@ -29,12 +29,17 @@ $(document).ready(() => {
     // $("#maintemp").append(season);
     // console.log("Season: ", solObject.Season);
 
-    for (var i = 0; i < response.sol_keys.length; i++) {
-      var solNum = response.sol_keys[i];
+    // for (var i = 0; i < response.sol_keys.length; i++) {
+      var solNum = response.sol_keys[0];
       var solObject = response[solNum];
       // console.log(solObject);
       var day = $("<h1>");
       day.html("Mars Day Number: " + solNum);
+      // $(".card-body:nth-child(0) .test").append(day);
+      // $(".card-body:nth-child(1) .test").append(day);
+      // $(".card-body:nth-child(2) .test").append(day);
+      // $(".card-body:nth-child(3) .test").append(day);
+
       $(".test").append(day);
 
       var date = $("<p>");
@@ -48,6 +53,6 @@ $(document).ready(() => {
       var low = $("<p>");
       low.html("Low: " + solObject.AT.mn + "°F");
       $(".test").append(low);
-    }
+    // }
   });
 });
