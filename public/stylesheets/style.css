@@ -2,50 +2,40 @@ form.signup,
 form.login {
     margin-top: 50px;
 }
-
 body {
     color: #ee5f00;
     background-color: #111;
     background-image: url("/Project-2/public/img/stars.jpg");
 }
-
-
 h1,
 h2,
 .h2, h3{
     color: #ee5f00;
 }
-
 h5 {
     color: #ee5f00;
 }
-
 .btn-default {
     background-color: #ee5f00;
     color: black;
     border-color: #222222;
     margin: 5px;
 }
-
 .btn-default:hover,
 .btn-default:focus,
 .btn-group.open .dropdown-toggle.btn-default {
     background-color: black;
     border-color: #ee5f00;
 }
-
 img {
-
     max-width: 100%;
     /* max-height: 80%;  */
 }
-
 /*Navbar Styling*/
 .navBox {
     border: .5px solid #ee5f00;
     background: rgba(0, 0, 0, 0.5);
 }
-
 .navbar-toggler{
     width: 47px;
     height: 34px;
@@ -59,15 +49,12 @@ img {
     background-color: #ee5f00;
     margin-bottom: 5px;
 }
-
 /* .navbar {
     background-color: #111;
 }
-
 .navbar-default {
     background-color: #111;
     border-color: #222;
 } */
-
 
 
