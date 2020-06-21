@@ -20,19 +20,11 @@ h5 {
     color: #ee5f00;
 }
 
-.navbar {
-    background-color: #111;
-}
-
-.navbar-default {
-    background-color: #111;
-    border-color: #222;
-}
-
 .btn-default {
     background-color: #ee5f00;
     color: black;
     border-color: #222222;
+    margin: 5px;
 }
 
 .btn-default:hover,
@@ -42,9 +34,45 @@ h5 {
     border-color: #ee5f00;
 }
 
+<<<<<<< HEAD
 img {
 
     max-width: 100%;
     /* max-height: 80%;  */
     
+=======
+/*Navbar Styling*/
+.navBox {
+    border: .5px solid #ee5f00;
+    background: rgba(0, 0, 0, 0.5);
 }
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border: 1px solid #ee5f00;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #ee5f00;
+    margin-bottom: 5px;
+}
+
+/* .navbar {
+    background-color: #111;
+}
+
+.navbar-default {
+    background-color: #111;
+    border-color: #222;
+} */
+
+img {
+    max-width: 80%;
+    /* max-height: 80%; */
+>>>>>>> a135b1954be15e86d0d573c02ecb972f767dac52
+}
+
