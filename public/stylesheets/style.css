@@ -20,19 +20,11 @@ h5 {
     color: #ee5f00;
 }
 
-.navbar {
-    background-color: #111;
-}
-
-.navbar-default {
-    background-color: #111;
-    border-color: #222;
-}
-
 .btn-default {
     background-color: #ee5f00;
     color: black;
     border-color: #222222;
+    margin: 5px;
 }
 
 .btn-default:hover,
@@ -42,12 +34,9 @@ h5 {
     border-color: #ee5f00;
 }
 
-<<<<<<< HEAD
-img {
-=======
 /*Navbar Styling*/
 .navBox {
-    border: 1px solid #ee5f00;
+    border: .5px solid #ee5f00;
     background: rgba(0, 0, 0, 0.5);
 }
 
@@ -64,8 +53,18 @@ img {
     background-color: #ee5f00;
     margin-bottom: 5px;
 }
->>>>>>> cf0b5e700b1fff40786254141ad554d009a51810
 
+/* .navbar {
+    background-color: #111;
+}
+
+.navbar-default {
+    background-color: #111;
+    border-color: #222;
+} */
+
+img {
     max-width: 80%;
     /* max-height: 80%; */
 }
+
