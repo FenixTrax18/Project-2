@@ -42,4 +42,23 @@ h5 {
     border-color: #ee5f00;
 }
 
+/*Navbar Styling*/
+.navBox {
+    border: 1px solid #ee5f00;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-toggler{
+    width: 47px;
+    height: 34px;
+    background-color: black;
+    border: 1px solid #ee5f00;
+}
+.navbar-toggler .line{
+    width: 100%;
+    float: left;
+    height: 2px;
+    background-color: #ee5f00;
+    margin-bottom: 5px;
+}
 
