@@ -34,13 +34,12 @@ h5 {
     border-color: #ee5f00;
 }
 
-<<<<<<< HEAD
 img {
 
     max-width: 100%;
     /* max-height: 80%;  */
-    
-=======
+}
+
 /*Navbar Styling*/
 .navBox {
     border: .5px solid #ee5f00;
@@ -70,9 +69,5 @@ img {
     border-color: #222;
 } */
 
-img {
-    max-width: 80%;
-    /* max-height: 80%; */
->>>>>>> a135b1954be15e86d0d573c02ecb972f767dac52
-}
+
 
