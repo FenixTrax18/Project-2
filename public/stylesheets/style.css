@@ -42,30 +42,9 @@ h5 {
     border-color: #ee5f00;
 }
 
-<<<<<<< HEAD
 img {
-=======
-/*Navbar Styling*/
-.navBox {
-    border: 1px solid #ee5f00;
-    background: rgba(0, 0, 0, 0.5);
-}
 
-.navbar-toggler{
-    width: 47px;
-    height: 34px;
-    background-color: black;
-    border: 1px solid #ee5f00;
-}
-.navbar-toggler .line{
-    width: 100%;
-    float: left;
-    height: 2px;
-    background-color: #ee5f00;
-    margin-bottom: 5px;
-}
->>>>>>> cf0b5e700b1fff40786254141ad554d009a51810
-
-    max-width: 80%;
-    /* max-height: 80%; */
+    max-width: 100%;
+    /* max-height: 80%;  */
+    
 }

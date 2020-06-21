@@ -8,5 +8,9 @@ $(document).ready(() => {
     console.log(queryURL);
     console.log(response);
     $(".url").html("<img src=" + response.url + ">" + "</img>");
+    $(".title").text(response.title);
+    console.log(response.title);
+    $(".explanation").text(response.explanation);
+    console.log(response.explanation);
   });
 });
