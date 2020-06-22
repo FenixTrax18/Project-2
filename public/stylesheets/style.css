@@ -56,7 +56,27 @@ img {
     height: 34px;
     background-color: black;
     border: 1px solid #ee5f00;
+    float: right;
+    margin: 21px;
 }
+.navbar-toggler.collapsed {
+    width: 47px;
+}
+
+.navbar-expand-lg.expanded {
+    height: 250px;
+}
+
+.navbar-collapse.collapse.show {
+    display: block !important;
+    margin-top: 52px;
+    margin-left: 15px;
+}
+
+.navbar-collapse.collapse.show ul li {
+    height: 45px;
+}
+
 .navbar-toggler .line{
     width: 100%;
     float: left;
@@ -119,5 +139,11 @@ img {
   @media (min-width: 768px) {
     .navbar-toggler {
         display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .navbar-collapse.collapse {
+        display: none !important;
     }
   }
