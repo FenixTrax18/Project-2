@@ -13,6 +13,17 @@ $(document).ready(() => {
     $(".explanation").text(response.explanation);
     console.log(response.explanation);
   });
+
+  $(".navbar-toggler").click(function() {
+    $(".collapse.navbar-collapse").toggleClass("show");
+    $(".navbar-toggler").toggleClass("collapsed");
+    $(".navbar-expand-lg").toggleClass("expanded");
+  });
+  $( window ).resize(function() {
+    if($(".collapse.navbar-collapse").hasClass("show")){
+      $(".navbar-toggler").click();
+    }
+  });
 });
 
 //-----Functions for scroll to top button - does not need to be inside of document.ready, will not work if so-----//

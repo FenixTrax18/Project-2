@@ -1,31 +1,41 @@
-form.signup,
-form.login {
+.fixed-top{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 80px
+}
+
+.navbar-nav{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+form.signup, form.login {
     margin-top: 50px;
 }
+
 body {
     color: #ee5f00;
     background-color: #111;
-    /* background-image: url("/Project-2/public/img/stars.jpg"); */
+    background-image: url("/img/stars.jpg");  
 }
-h1,
-h2,
-.h2, h3{
-    color: #ee5f00;
-}
-h5 {
+
+
+
+h1, h2, .h2, h3, h5 {
     color: #ee5f00;
 }
 
+
 /*-----PAGE BUTTONS-----*/
+
 .btn-default {
     background-color: #ee5f00;
     color: black;
     border-color: #222222;
     margin: 5px;
 }
-.btn-default:hover,
-.btn-default:focus,
-.btn-group.open .dropdown-toggle.btn-default {
+.btn-default:hover, .btn-default:focus, .btn-group.open .dropdown-toggle.btn-default {
     background-color: black;
     border-color: #ee5f00;
 }
@@ -36,17 +46,43 @@ img {
     /* max-height: 80%;  */
 }
 
-/*------Navbar Styling---------*/
+/*Navbar Styling*/
+.navbar-collapse.collapse {
+    display: inline-block !important;
+    margin-top: 10px;
+}
+
 .navBox {
     border: .5px solid #ee5f00;
     background: rgba(0, 0, 0, 0.5);
 }
+
 .navbar-toggler{
     width: 47px;
     height: 34px;
     background-color: black;
     border: 1px solid #ee5f00;
+    float: right;
+    margin: 21px;
 }
+.navbar-toggler.collapsed {
+    width: 47px;
+}
+
+.navbar-expand-lg.expanded {
+    height: 250px;
+}
+
+.navbar-collapse.collapse.show {
+    display: block !important;
+    margin-top: 52px;
+    margin-left: 15px;
+}
+
+.navbar-collapse.collapse.show ul li {
+    height: 45px;
+}
+
 .navbar-toggler .line{
     width: 100%;
     float: left;
@@ -54,9 +90,31 @@ img {
     background-color: #ee5f00;
     margin-bottom: 5px;
 }
-/* .navbar {
-    background-color: #111;
+.navbar-brand {
+    padding: 20px 15px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: #0f7864;
 }
+
+.navbar-nav .btn {
+    text-transform: none;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    padding: 5px 15px;
+    height: 36px;
+    width: auto;
+    vertical-align: middle;
+    line-height: initial;
+    margin-top: 10px;
+    border-width: initial;
+}
+
+.navbar-nav a:hover {
+    color: #0f7864;
+}
+/*
 .navbar-default {
     background-color: #111;
     border-color: #222;
@@ -129,3 +187,60 @@ background-size: cover;
 }
 
 
+#loginForm {
+     margin-top: 100px;
+}
+
+#signupForm {
+    margin-top: 100px;
+}
+
+/* SPHERE Styling */
+#sphere-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .animation-wrapper {
+    width: 50%;
+    padding-bottom: 50%;
+  }
+  
+  .sphere-animation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 580px;
+    height: 580px;
+    margin: -290px 0 0 -290px;
+  }
+  
+  .sphere path {
+    fill: url(#sphereGradient);
+    stroke-width: 1px;
+    stroke: rgba(80,80,80,.35);
+    backface-visibility: hidden;
+  }
+  
+  @media (min-width: 500px) {
+    .sphere path {
+      stroke-width: .4px;
+    }
+  }
+/* End of Sphere Styling */
+
+  @media (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+  }

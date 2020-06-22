@@ -1,79 +1,81 @@
-<nav class="navbar navbar-default">
+<body>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/logout">
+          Logout
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <h1>Welcome, <span class="member-name"></span></h1>
+      </div>
+    </div>
+  </div>
+
+  <header class="container-fluid text-center text-white bg-dark p-2">
+    <h2></h2>
+
+    <!--Season should append here yet is repeating right now-->
+    <div class="season"></div>
+    <h2>...Time for a vacation</h2>
+  </header>
+
+  <!--Possible main info-->
   <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="/logout">
-        Logout
-      </a>
+    <div class="row">
+      <div class="col-lg-9">
+        {{!-- <div id="maintemp"></div> --}}
+      </div>
     </div>
   </div>
-</nav>
 
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-      <h1>Welcome, <span class="member-name"></span></h1>
+  <br>
+  <hr>
+
+  <!--Everything is good here-->
+  <div class="container">
+    <div class="row">
+      <div class="card-group">
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test0"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test1"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test2"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test3"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test4"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test5"> {{> card}}</div>
+        </div>
+
+        <div class="card col-sm-2 col-md-2 col-lg-2">
+          <div class="test6"> {{> card}}</div>
+        </div>
+
+
+
+
+      </div>
     </div>
   </div>
-</div>
 
-<header class="container-fluid text-center text-white bg-dark p-2">
-  <h2></h2>
-
-  <!--Season should append here yet is repeating right now-->
-  <div class="season"></div>
-  <h2>...Time for a vacation</h2>
-</header>
-
-<!--Possible main info-->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-9">
-      {{!-- <div id="maintemp"></div> --}}
-    </div>
-  </div>
-</div>
-
-<br>
-<hr>
-
-<!--Everything is good here-->
-<div class="container">
-  <div class="row">
-    <div class="card-group">
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test0"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test1"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test2"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test3"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test4"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test5"> {{> card}}</div>
-      </div>
-
-      <div class="card col-sm-2 col-md-2 col-lg-2">
-        <div class="test6"> {{> card}}</div>
-      </div>
-
-
-
-
-    </div>
-  </div>
-</div>
-
-<script src="/js/weatherAPI.js"></script>
+  <script src="/js/weatherAPI.js"></script>
+</body>
