@@ -5,7 +5,7 @@ form.login {
 body {
     color: #ee5f00;
     background-color: #111;
-    background-image: url("/Project-2/public/img/stars.jpg");
+    /* background-image: url("/Project-2/public/img/stars.jpg"); */
 }
 h1,
 h2,
@@ -15,6 +15,8 @@ h2,
 h5 {
     color: #ee5f00;
 }
+
+/*-----PAGE BUTTONS-----*/
 .btn-default {
     background-color: #ee5f00;
     color: black;
@@ -27,11 +29,14 @@ h5 {
     background-color: black;
     border-color: #ee5f00;
 }
+
+/*-----AUTO IMAGE OF THE DAY-----*/
 img {
     max-width: 100%;
     /* max-height: 80%;  */
 }
-/*Navbar Styling*/
+
+/*------Navbar Styling---------*/
 .navBox {
     border: .5px solid #ee5f00;
     background: rgba(0, 0, 0, 0.5);
@@ -57,7 +62,7 @@ img {
     border-color: #222;
 } */
 
-/*Scroll to top button*/
+/*----Scroll to top button----*/
 #topBtn {
     display: none;
     position: fixed;
@@ -69,13 +74,58 @@ img {
     outline: none;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    border: .5px solid blueviolet;
+    /* color: #18BC9C; */
+    border: 1px solid rgb(105, 6, 3);
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-  }
-  
-  #topBtn:hover {
-    background-color: #555;
-  }
+}
+#topBtn:hover {
+background-color:  #ee5f00;
+color: black;
+}
+
+/*-----Parallax------*/
+.homeBody, .homeHtml {
+height: 80%;
+}
+.parallax {
+/* The image used */
+background-image: url("../img/stars.jpg");
+/* Full height */
+height: 100%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+.bgimg-1{
+    position: relative;
+    opacity: 0.65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bgimg-1 {
+    /* background-image: url("/public/img/stars.jpg"); */
+    min-height: 100%;
+}
+
+/*----FOOTER----*/
+.footer {
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
+    /* height: 60px; Set the fixed height of the footer here */
+    line-height: 60px; /*Vertically center the text there*/
+    background-color: rgb(28, 37, 37);
+}
+.copyright {
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+}
+
 
