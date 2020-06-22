@@ -16,10 +16,9 @@ form.signup, form.login {
 
 body {
     color: #ee5f00;
-    background-color: #111;
-    background-image: url("/img/stars.jpg");  
+    background-color: rgb(20, 19, 19);
+    /* background-image: url("/img/stars.jpg");   */
 }
-
 
 
 h1, h2, .h2, h3, h5 {
@@ -157,19 +156,9 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+padding: 200px;
 } 
-.bgimg-1{
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bgimg-1 {
-    /* background-image: url("/public/img/stars.jpg"); */
-    min-height: 100%;
-}
+
 
 /*----FOOTER----*/
 .footer {
