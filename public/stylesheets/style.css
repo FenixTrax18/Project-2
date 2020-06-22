@@ -17,7 +17,7 @@ form.signup, form.login {
 body {
     color: #ee5f00;
     background-color: #111;
-    background-image: url("/Project-2/public/img/stars.jpg");
+    background-image: url("/img/stars.jpg");
 }
 
 h1, h2, .h2, h3, h5 {
