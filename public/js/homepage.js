@@ -26,7 +26,7 @@ $(document).ready(() => {
   });
 });
 
-//Scroll to top button
+//-----Functions for scroll to top button - does not need to be inside of document.ready, will not work if so-----//
 var mybutton = document.getElementById("topBtn");
 window.onscroll = function () { scrollFunction() };
 
