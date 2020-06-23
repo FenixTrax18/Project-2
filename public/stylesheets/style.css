@@ -1,16 +1,17 @@
-.fixed-top{
+.fixed-top {
     position: fixed;
     width: 100%;
     z-index: 1;
     height: 80px
 }
 
-.navbar-nav{
+.navbar-nav {
     list-style-type: none;
     padding-left: 0;
 }
 
-form.signup, form.login {
+form.signup,
+form.login {
     margin-top: 50px;
 }
 
@@ -20,8 +21,11 @@ body {
     /* background-image: url("/img/stars.jpg");   */
 }
 
-
-h1, h2, .h2, h3, h5 {
+h1,
+h2,
+.h2,
+h3,
+h5 {
     color: #ee5f00;
 }
 
@@ -34,18 +38,25 @@ h1, h2, .h2, h3, h5 {
     border-color: #222222;
     margin: 5px;
 }
-.btn-default:hover, .btn-default:focus, .btn-group.open .dropdown-toggle.btn-default {
+
+.btn-default:hover,
+.btn-default:focus,
+.btn-group.open .dropdown-toggle.btn-default {
     background-color: black;
     border-color: #ee5f00;
 }
 
+
 /*-----AUTO IMAGE OF THE DAY-----*/
+
 img {
     max-width: 100%;
     /* max-height: 80%;  */
 }
 
+
 /*Navbar Styling*/
+
 .navbar-collapse.collapse {
     display: inline-block !important;
     margin-top: 10px;
@@ -56,7 +67,7 @@ img {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-toggler{
+.navbar-toggler {
     width: 47px;
     height: 34px;
     background-color: black;
@@ -64,6 +75,7 @@ img {
     float: right;
     margin: 21px;
 }
+
 .navbar-toggler.collapsed {
     width: 47px;
 }
@@ -82,13 +94,14 @@ img {
     height: 45px;
 }
 
-.navbar-toggler .line{
+.navbar-toggler .line {
     width: 100%;
     float: left;
     height: 2px;
     background-color: #ee5f00;
     margin-bottom: 5px;
 }
+
 .navbar-brand {
     padding: 20px 15px;
     margin-top: 10px;
@@ -113,13 +126,17 @@ img {
 .navbar-nav a:hover {
     color: #0f7864;
 }
+
+
 /*
 .navbar-default {
     background-color: #111;
     border-color: #222;
 } */
 
+
 /*----Scroll to top button----*/
+
 #topBtn {
     display: none;
     position: fixed;
@@ -137,31 +154,38 @@ img {
     padding: 15px;
     border-radius: 4px;
 }
+
 #topBtn:hover {
-background-color:  #ee5f00;
-color: black;
+    background-color: #ee5f00;
+    color: black;
 }
+
 
 /*-----Parallax------*/
-.homeBody, .homeHtml {
-height: 80%;
+
+.homeBody,
+.homeHtml {
+    height: 80%;
 }
 
+
 /*homepage parallax*/
+
 .parallax {
-/* The image used */
-background-image: url("../img/stars.jpg");
-height: 100%;
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 200px;
-} 
+    /* The image used */
+    background-image: url("../img/stars.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px;
+}
 
 
 /*----FOOTER----*/
+
 .footer {
     position: fixed;
     left: 0;
@@ -169,19 +193,20 @@ padding: 200px;
     bottom: 0;
     width: 100%;
     /* height: 60px; Set the fixed height of the footer here */
-    line-height: 60px; /*Vertically center the text there*/
+    line-height: 60px;
+    /*Vertically center the text there*/
     background-color: rgb(28, 37, 37);
 }
+
 .copyright {
     text-align: center;
     color: white;
     padding-top: 10px;
 }
 
-
 #loginForm {
-     margin-top: 100px;
-     z-index: 1;
+    margin-top: 100px;
+    z-index: 1;
 }
 
 #signupForm {
@@ -189,7 +214,10 @@ padding: 200px;
     z-index: 1;
 }
 
+
 /* SPHERE Styling */
+
+
 /* #sphere-body {
     display: flex;
     justify-content: center;
@@ -198,43 +226,50 @@ padding: 200px;
     width: 100%;
     height: 100vh;
 } */
-  
-  .animation-wrapper {
+
+.animation-wrapper {
     width: 50%;
     padding-bottom: 50%;
-  }
-  
-  .sphere-animation {
+}
+
+.sphere-animation {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 580px;
     height: 580px;
     margin: -290px 0 0 -290px;
-  }
-  
-  .sphere path {
+}
+
+.chart {
+    width: 80%;
+    margin-left: 10%;
+}
+
+.sphere path {
     fill: url(#sphereGradient);
     stroke-width: 1px;
-    stroke: rgba(80,80,80,.35);
+    stroke: rgba(80, 80, 80, .35);
     backface-visibility: hidden;
-  }
-  
-  @media (min-width: 500px) {
+}
+
+@media (min-width: 500px) {
     .sphere path {
-      stroke-width: .4px;
+        stroke-width: .4px;
     }
-  }
+}
+
+
 /* End of Sphere Styling */
 
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
     .navbar-toggler {
         display: none;
     }
-  }
+}
 
-  @media (max-width: 767px) {
+@media (max-width: 767px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
-  }
+}
