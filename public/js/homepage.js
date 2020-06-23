@@ -19,8 +19,8 @@ $(document).ready(() => {
     $(".navbar-toggler").toggleClass("collapsed");
     $(".navbar-expand-lg").toggleClass("expanded");
   });
-  $( window ).resize(function() {
-    if($(".collapse.navbar-collapse").hasClass("show")){
+  $(window).resize(function() {
+    if ($(".collapse.navbar-collapse").hasClass("show")) {
       $(".navbar-toggler").click();
     }
   });
