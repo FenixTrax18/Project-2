@@ -2,6 +2,17 @@
 //File communicates with members.html!!!
 $(document).ready(() => {
 
+    $(".navbar-toggler").click(function() {
+        $(".collapse.navbar-collapse").toggleClass("show");
+        $(".navbar-toggler").toggleClass("collapsed");
+        $(".navbar-expand-lg").toggleClass("expanded");
+      });
+      $( window ).resize(function() {
+        if($(".collapse.navbar-collapse").hasClass("show")){
+          $(".navbar-toggler").click();
+        }
+      });
+
     // This file just does a GET request to figure out which user is logged in
     // and updates the HTML on the page
     $.get("/api/user_data").then(data => {
