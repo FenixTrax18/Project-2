@@ -54,7 +54,7 @@ $(document).ready(() => {
 
         var season = $("<div>");
         season.html("Current Mars Season: " + solObject.Season);
-        $("#maintemp").append(season);
+        $("#season").append(season);
         console.log("Season: ", solObject.Season);
 
         /*
