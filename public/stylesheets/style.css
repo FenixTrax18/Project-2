@@ -239,6 +239,7 @@ img {
     line-height: 60px;
     /*Vertically center the text there*/
     background-color: rgb(28, 37, 37);
+    z-index: 2;
 }
 
 .copyright {
