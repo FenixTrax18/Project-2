@@ -63,6 +63,12 @@ function createBarChart(data) {
                 mode: 'index',
                 intersect: true
             },
+            legend: {
+                labels: {
+                    fontColor: '#ee5f00',
+                    boxWidth: 80
+                }
+            },
             // legend: {
             //     display: true,
             //     labels: {
