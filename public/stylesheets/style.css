@@ -197,7 +197,8 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
     text-align: center;
 }
 .cards {
