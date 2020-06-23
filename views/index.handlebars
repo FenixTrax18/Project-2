@@ -4,59 +4,54 @@
 <br>
 <br>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-md-offset-3">
-        <h1 style="text-align: center;">Welcome, <span class="member-name"></span></h1>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 style="text-align: center;">Welcome, <span class="member-name"></span></h1>
     </div>
   </div>
+</div>
 
-  <header class="container-fluid text-center text-white bg-dark p-2">
-    <h2></h2>
+<header class="container-fluid text-center text-white bg-dark p-2">
+  <h2></h2>
 
-    <!--Season should append here yet is repeating right now-->
-    <div class="season" id="season"></div>
-    <h2>...Time for a vacation</h2>
-  </header>
+  <!--Season should append here yet is repeating right now-->
+  <div class="season" id="season"></div>
+  <h2>...Time for a vacation</h2>
+</header>
 
-  <!--Possible main info-->
-  {{!-- <div class="container-fluid">
-    <div class="row">
-      <div class="col-lg-9">
+
+<br>
+<hr>
+
+<!--Everything is good here-->
+<div class="container" style="align-items: center;">
+  <div class="row">
+    <div class="card-group">
+      <div class="card col-sm-2 col-md-2 col-lg-2">
+        <div class="test0"> {{> card}}</div>
       </div>
-    </div>
-  </div> --}}
 
-  <br>
-  <hr>
-
-  <!--Everything is good here-->
-  <div class="container" style="align-items: center;">
-    <div class="row">
-      <div class="card-group">
-        <div class="card col-sm-2 col-md-2 col-lg-2">
-          <div class="test0"> {{> card}}</div>
-        </div>
-
-        <div class="card col-sm-2 col-md-2 col-lg-2">
-          <div class="test1"> {{> card}}</div>
-        </div>
-
-        <div class="card col-sm-2 col-md-2 col-lg-2">
-          <div class="test2"> {{> card}}</div>
-        </div>
-
-        <div class="card col-sm-2 col-md-2 col-lg-2">
-          <div class="test3"> {{> card}}</div>
-        </div>
-
-        <div class="card col-sm-2 col-md-2 col-lg-2">
-          <div class="test4"> {{> card}}</div>
-        </div>
+      <div class="card col-sm-2 col-md-2 col-lg-2">
+        <div class="test1"> {{> card}}</div>
       </div>
+
+      <div class="card col-sm-2 col-md-2 col-lg-2">
+        <div class="test2"> {{> card}}</div>
+      </div>
+
+      <div class="card col-sm-2 col-md-2 col-lg-2">
+        <div class="test3"> {{> card}}</div>
+      </div>
+
+      <div class="card col-sm-2 col-md-2 col-lg-2">
+        <div class="test4"> {{> card}}</div>
+
+      </div>
+
     </div>
   </div>
+</div>
 
 <br>
 <br>
@@ -66,6 +61,6 @@
   <canvas id="canvas"></canvas>
 </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-  <script src="/chartjs/multi-axis.js"></script>
-  <script src="/js/weatherAPI.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+<script src="/chartjs/multi-axis.js"></script>
+<script src="/js/weatherAPI.js"></script>
