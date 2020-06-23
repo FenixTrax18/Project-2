@@ -201,6 +201,18 @@ img {
     padding-bottom: 20px;
     text-align: center;
 }
+.parallaxExploration {
+    /* The image used */
+    background-image: url("../img/stars.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
 .cards {
     justify-content: center;
 }
