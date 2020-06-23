@@ -15,42 +15,51 @@
     <title>Mars Weather</title>
 </head>
 
-<header>
-  <nav class="navbar fixed-top navbar-expand-lg navBox">
-    <a class="navbar-brand" href="#">(App Name)</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="btn btn-default" href="/">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-default" href="/signup">Sign Up</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-default" href="/login">Log In</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-default" href="/members">Members</a>
-        </li>
-        <li class="nav-item">
-          <a class="btn btn-default" href="/logout">Logout</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
-
 <body>
-{{{ body }}}
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navBox">
+            <img src="./img/mars.jpg" alt="Photo of Mars" id="mars" height="55" width="55">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="line"></span>
+                <span class="line"></span>
+                <span class="line"></span>
+            </button>
 
-{{!-- add script tags here not in other handlebars--}}
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="btn btn-default" href="/">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-default" href="/signup">Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-default" href="/login">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-default" href="/members">Members</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-default" href="/logout">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    {{{ body }}}
+
+    {{!-- add script tags here not in other handlebars--}}
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
+    <script src="./js/homepage.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
+    <script src="/chartjs/multi-axis.js"></script>
+    <script src="/js/weatherAPI.js"></script>
+    <script type="text/javascript" src="/js/login.js"></script>
+    <script type="text/javascript" src="/js/signup.js"></script>
+
 </body>
 
 <footer class="footer">

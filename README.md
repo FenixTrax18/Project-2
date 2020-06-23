@@ -1,6 +1,6 @@
 ![License](https://img.shields.io/badge/License-MIT-blue.svg?style=plastic)
 
-# Project 2 Team 5 (App Name TBD)
+# Red Planet Voyagers
 
 ## Table of Contents:
 * TITLE
@@ -18,7 +18,7 @@
 
 
 
-## Description of Project 2 Team 5 (App Name TBD):
+## Description of Red Planet Voyagers:
 Looking to vacation to Mars? Check the weather for your stay before you go! (App Name), your daily does of Mars info. View weather trends, forecast, and data charts. View photos for a more enticing visit! 
 
 

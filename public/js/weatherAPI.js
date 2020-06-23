@@ -44,10 +44,10 @@ $(document).ready(() => {
             data.max.push(max);
 
             var day = $("<h3>");
-            day.html("Mars Day Number: " + response.sol_keys[i]);
+            day.html("Day " + response.sol_keys[i] + " of 687");
             $(".test" + i).append(day);
             var date = $("<p>");
-            date.html("Date, Time: " + response[response.sol_keys[i]].First_UTC);
+            date.html("Date & Time: " + response[response.sol_keys[i]].First_UTC);
             $(".test" + i).append(date);
             var high = $("<p>");
             high.html("High: " + response[response.sol_keys[i]].AT.mx + "°F");
@@ -63,7 +63,7 @@ $(document).ready(() => {
         var solNum = response.sol_keys[0];
         var solObject = response[solNum];
 
-        var season = $("<div>");
+        var season = $("<h2>");
         season.html("Current Mars Season: " + solObject.Season);
         $("#season").append(season);
         console.log("Season: ", solObject.Season);
