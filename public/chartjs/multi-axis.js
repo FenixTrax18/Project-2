@@ -15,13 +15,11 @@ var barChartData = {
     datasets: [{
         label: 'Min',
         backgroundColor: [
-            window.chartColors.red,
-            window.chartColors.orange,
-            window.chartColors.yellow,
-            window.chartColors.green,
             window.chartColors.blue,
-            window.chartColors.purple,
-            window.chartColors.red
+            window.chartColors.blue,
+            window.chartColors.blue,
+            window.chartColors.blue,
+            window.chartColors.blue
         ],
         yAxisID: 'Min',
 
@@ -29,13 +27,11 @@ var barChartData = {
     }, {
         label: 'Max',
         backgroundColor: [
-            window.chartColors.red,
             window.chartColors.orange,
-            window.chartColors.yellow,
-            window.chartColors.green,
-            window.chartColors.blue,
-            window.chartColors.purple,
-            window.chartColors.red
+            window.chartColors.orange,
+            window.chartColors.orange,
+            window.chartColors.orange,
+            window.chartColors.orange
         ],
         yAxisID: 'Max',
 
@@ -59,7 +55,9 @@ function createBarChart(data) {
             responsive: true,
             title: {
                 display: true,
-                text: 'Mars Weather'
+                text: 'Mars 5-Day Forecast',
+                fontColor: '#ee5f00',
+                fontSize: 30
             },
             tooltips: {
                 mode: 'index',
@@ -76,7 +74,9 @@ function createBarChart(data) {
                 xAxes: [{
                     scaleLabel: {
                         display: true,
-                        labelString: "Sol"
+                        labelString: "Sol Day",
+                        fontColor: '#ee5f00',
+                        fontSize: 20
                     }
                 }],
                 yAxes: [{
@@ -86,7 +86,9 @@ function createBarChart(data) {
                     id: 'Min',
                     scaleLabel: {
                         display: true,
-                        labelString: "Temp"
+                        labelString: "Min Temp (°F)",
+                        fontColor: 'rgb(54, 162, 235)',
+                        fontSize: 20
                     }
                 }, {
                     type: 'linear',
@@ -95,10 +97,13 @@ function createBarChart(data) {
                     id: 'Max',
                     scaleLabel: {
                         display: true,
-                        labelString: "Temp"
+                        labelString: "Max Temp (°F)",
+                        fontColor: 'rgb(255, 159, 64)',
+                        fontSize: 20
                     },
                     gridLines: {
-                        drawOnChartArea: false
+                        drawOnChartArea: true,
+                        color: '#ee5f00'
                     }
                 }],
             }

@@ -6,12 +6,12 @@ $(document).ready(() => {
         $(".collapse.navbar-collapse").toggleClass("show");
         $(".navbar-toggler").toggleClass("collapsed");
         $(".navbar-expand-lg").toggleClass("expanded");
-      });
-      $( window ).resize(function() {
-        if($(".collapse.navbar-collapse").hasClass("show")){
-          $(".navbar-toggler").click();
+    });
+    $(window).resize(function() {
+        if ($(".collapse.navbar-collapse").hasClass("show")) {
+            $(".navbar-toggler").click();
         }
-      });
+    });
 
     // This file just does a GET request to figure out which user is logged in
     // and updates the HTML on the page
@@ -34,7 +34,7 @@ $(document).ready(() => {
             min: [],
             max: []
         }
-        for (var i = 0; i < 7; i++) {
+        for (var i = 0; i < 5; i++) {
             //grabbing data from API, 31-33 pushes data into data object on line 21
             var solNum = response.sol_keys[i];
             var min = response[response.sol_keys[i]].AT.mn;
