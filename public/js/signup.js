@@ -4,6 +4,17 @@ $(document).ready(() => {
   const emailInput = $("input#email-input");
   const passwordInput = $("input#password-input");
 
+  $(".navbar-toggler").click(function() {
+    $(".collapse.navbar-collapse").toggleClass("show");
+    $(".navbar-toggler").toggleClass("collapsed");
+    $(".navbar-expand-lg").toggleClass("expanded");
+  });
+  $( window ).resize(function() {
+    if($(".collapse.navbar-collapse").hasClass("show")){
+      $(".navbar-toggler").click();
+    }
+  });
+
   // When the signup button is clicked, we validate the email and password are not blank
   signUpForm.on("submit", event => {
     event.preventDefault();
@@ -20,6 +31,7 @@ $(document).ready(() => {
     emailInput.val("");
     passwordInput.val("");
   });
+  
 
   // Does a post to the signup route. If successful, we are redirected to the members page
   // Otherwise we log any errors

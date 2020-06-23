@@ -4,6 +4,17 @@ $(document).ready(() => {
   const emailInput = $("input#email-input");
   const passwordInput = $("input#password-input");
 
+  $(".navbar-toggler").click(function() {
+    $(".collapse.navbar-collapse").toggleClass("show");
+    $(".navbar-toggler").toggleClass("collapsed");
+    $(".navbar-expand-lg").toggleClass("expanded");
+  });
+  $( window ).resize(function() {
+    if($(".collapse.navbar-collapse").hasClass("show")){
+      $(".navbar-toggler").click();
+    }
+  });
+
   // When the form is submitted, we validate there's an email and password entered
   loginForm.on("submit", event => {
     event.preventDefault();
@@ -37,3 +48,4 @@ $(document).ready(() => {
       });
   }
 });
+
