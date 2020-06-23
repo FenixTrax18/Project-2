@@ -15,6 +15,11 @@ form.login {
     margin-top: 50px;
 }
 
+.form-control {
+    display: block;
+    width: 50%;
+}
+
 body {
     color: #ee5f00;
     background-color: rgb(20, 19, 19);
@@ -55,8 +60,8 @@ img {
 }
 
 #mars {
-   vertical-align: unset;
-   margin-left: 12px;
+    vertical-align: unset;
+    margin-left: 12px;
 }
 
 
@@ -173,6 +178,7 @@ img {
     height: 80%;
 }
 
+
 /*homepage parallax*/
 
 .parallax {
@@ -187,7 +193,9 @@ img {
     padding: 200px;
 }
 
+
 /*members page parallax*/
+
 .membersParallax {
     /* The image used */
     background-image: url("../img/stars.jpg");
@@ -197,12 +205,27 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px;
+    padding-top: 80px;
+    padding-bottom: 20px;
     text-align: center;
 }
+
+.parallaxExploration {
+    /* The image used */
+    background-image: url("../img/stars.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
 .cards {
     justify-content: center;
 }
+
 
 /*----FOOTER----*/
 
@@ -216,6 +239,7 @@ img {
     line-height: 60px;
     /*Vertically center the text there*/
     background-color: rgb(28, 37, 37);
+    z-index: 2;
 }
 
 .copyright {
