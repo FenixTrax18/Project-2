@@ -173,7 +173,6 @@ img {
     height: 80%;
 }
 
-
 /*homepage parallax*/
 
 .parallax {
@@ -188,6 +187,22 @@ img {
     padding: 200px;
 }
 
+/*members page parallax*/
+.membersParallax {
+    /* The image used */
+    background-image: url("../img/stars.jpg");
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+}
+.cards {
+    justify-content: center;
+}
 
 /*----FOOTER----*/
 
