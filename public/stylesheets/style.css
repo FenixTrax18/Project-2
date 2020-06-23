@@ -54,6 +54,11 @@ img {
     /* max-height: 80%;  */
 }
 
+#mars {
+   vertical-align: unset;
+   margin-left: 12px;
+}
+
 
 /*Navbar Styling*/
 
