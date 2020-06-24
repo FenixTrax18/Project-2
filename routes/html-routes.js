@@ -26,7 +26,7 @@ module.exports = function(app) {
   // If a user who is not logged in tries to access this route they will be redirected to the signup page
 
   app.get("/members", isAuthenticated, (req, res) => {
-    res.render("index");
+    console.log(req.user);
+    res.render("index", req.user);
   });
-
 };
