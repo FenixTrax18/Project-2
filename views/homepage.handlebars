@@ -2,11 +2,8 @@
   <button onclick="topFunction()" id="topBtn" title="Go to top">Back to Top</button>
 
   <div class="logoParallax">
-    <p class="pageLogo"><img src="img/voyagers.png" alt="voyagersLogo" class="responsive"></p>
+    <p class="pageLogo"><img src="img/voyagersImg.png" alt="voyagersLogo" class="responsive"></p>
   </div>
-
-  <br>
-  <br>
 
   <div class="container">
     <div class="row">
@@ -78,60 +75,55 @@
       </div>
     </div>
   </div>
+
   <div class="parallaxExploration">
     <h1 style="text-align: center;">Mars Exploration LOGO HERE</h1>
   </div>
 
   <div class="container">
-    <div class="row" style="text-align: center;">
-      <h2> - placeholder - </h2>
+
+    <div class="row col-12 center">
+      {{!-- <h2> - placeholder - </h2> --}}
     </div>
+    <br>
 
     <div class="row">
-
-      <div class="container">
-        <div class="col-lg-6">
-          <ul>
-            <li>11/28/1964: Mariner 4 was an unmanned spacecraft launched by NASA.</li>
-            <li>7/4/1976: Viking 1 was the first successful landing on the surface of Mars.</li>
-            <li>12/1971: Soviet Mars 3 made a soft landing on the surface of Mars.</li>
-            <li>7/4/1997: Mars Pathfinder spacecraft.</li>
-          </ul>
-        </div>
-        <div class="col-lg-6">
-          <ul>
-            <li>7/5/1997: Pathfinder launches Sojourner rover.</li>
-            <li>1/2004-6/2018: Mars Exploration Rovers Spirit and Opportunity.</li>
-            <li>12/23/2003: Mars Express Orbiter (European Space Agency).</li>
-            <li>9/24/2014: Mars Orbiter Mission spacecraft (Indian Space Research Organization).</li>
-          </ul>
-        </div>
+      <div class="col-6">
+        <ul>
+          <li>11/28/1964: Mariner 4 was an unmanned spacecraft launched by NASA.</li>
+          <li>7/4/1976: Viking 1 was the first successful landing on the surface of Mars.</li>
+          <li>12/1971: Soviet Mars 3 made a soft landing on the surface of Mars.</li>
+          <li>7/4/1997: Mars Pathfinder spacecraft.</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <ul>
+          <li>7/5/1997: Pathfinder launches Sojourner rover.</li>
+          <li>1/2004-6/2018: Mars Exploration Rovers Spirit and Opportunity.</li>
+          <li>12/23/2003: Mars Express Orbiter (European Space Agency).</li>
+          <li>9/24/2014: Mars Orbiter Mission spacecraft (Indian Space Research Organization).</li>
+        </ul>
       </div>
     </div>
   </div>
 </div>
-</div>
-
-<br>
 
 
-<div class="parallax">
-  <h1 style="text-align: center;">LAUNCH DATES</h1>
+<div class="launchParallax">
+  <h1 class="launchTitle">FUTURE LAUNCH DATES</h1>
   {{!-- LAUNCH DATE INFO HERE --}}
-  
+
   <div class="launch"></div>
   <div class="mission"></div>
   <div class="rocket"></div>
   <div class="launch"></div>
   <div class="details"></div>
-  <div class="image"></div>
-</div>
+  <br>
+  <div class="image" style="text-align: center;"></div>
 </div>
 
-</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.17.0/moment.min.js" type="text/javascript"></script>
 <script src="/js/rover-api.js" type="text/javascript"></script>
 <script src="./js/homepage.js" type="text/javascript"></script>
 <script src="../public/js/launch-dates.js" type="text/javascript"></script>
-
