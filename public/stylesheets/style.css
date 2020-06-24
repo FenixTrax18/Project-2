@@ -222,7 +222,7 @@ img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 80px;
+    /* padding: 40px; */
 }
 
 /* Log In Parallax */
@@ -235,6 +235,12 @@ img {
     background-size: cover;
     padding-top: 20px;
 }
+
+.exploreLogo {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
 .launchParallax {
     background-image: url("../img/stars.jpg");
     height: 100%;
