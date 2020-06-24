@@ -175,17 +175,18 @@ img {
 
 .homeBody,
 .homeHtml {
-    height: 80%;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
 }
 
-
-/*homepage parallax*/
-
+/*---------Parallax--------*/
 .parallax {
-    /* The image used */
     background-image: url("../img/stars.jpg");
     height: 100%;
-    /* Create the parallax scrolling effect */
+    width: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,14 +194,52 @@ img {
     padding: 200px;
 }
 
+/*Homepage parallax*/
+.logoParallax {
+    background-image: url("../img/stars.jpg");
+    /* height: 100%;
+    width: 100%; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+/*---Voyagers Logo----*/
 
-/*members page parallax*/
+.pageLogo {
+    text-align: center;
+    margin-top: 50px;
+}
+/*---------------------*/
 
-.membersParallax {
-    /* The image used */
+/* Main page bottom - Mars Exploration Div */
+.parallaxExploration {
     background-image: url("../img/stars.jpg");
     height: 100%;
-    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px;
+}
+
+/* Log In Parallax */
+.logSignParallax {
+    background-image: url("../img/stars.jpg");
+    height: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding-top: 20px;
+}
+
+/*Members page parallax*/
+.membersParallax {
+    background-image: url("../img/stars.jpg");
+    height: 100%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -210,18 +249,8 @@ img {
     text-align: center;
 }
 
-.parallaxExploration {
-    /* The image used */
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 80px;
-}
 
+/* Cards */
 .cards {
     justify-content: center;
 }
@@ -249,7 +278,7 @@ img {
 }
 
 #loginForm {
-    margin-top: 100px;
+    margin-top: 200px;
     z-index: 1;
 }
 
