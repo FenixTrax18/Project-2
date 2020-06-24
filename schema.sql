@@ -1,5 +1,13 @@
--- Drops the blogger if it exists currently --
+-- Drop DATABASE 
 DROP DATABASE IF EXISTS loginInfo;
--- Creates the "blogger" database --
+
 CREATE DATABASE loginInfo;
 
+USE loginInfo;
+
+CREATE TABLE IF NOT EXISTS signUp(
+email VARCHAR(100) NOT NULL,
+password VARCHAR(100) NOT NULL,
+notification BOOLEAN NOT NULL DEFAULT false);
+
+SHOW TABLES

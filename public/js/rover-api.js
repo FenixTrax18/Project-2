@@ -5,11 +5,11 @@ $.ajax({
 })
   .then(function (response) {
     console.log(queryURL);
-     for(var i = 0; i < 5; i++) {
-         console.log("#" + i);
-         var id = "#" + i;
-         console.log(id)
-       $(id).attr("src", response.photos[i].img_src);
-       console.log("Image Source:", response.photos[i].img_src); 
+    for (var i = 0; i < 5; i++) {
+      console.log("#" + i);
+      var id = "#" + i;
+      console.log(id)
+      $(id).attr("src", response.photos[i].img_src);
+      console.log("Image Source:", response.photos[i].img_src);
     };
-});
+  });
