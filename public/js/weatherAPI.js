@@ -2,12 +2,12 @@
 //File communicates with members.html!!!
 $(document).ready(() => {
 
-    $(".navbar-toggler").click(function() {
+    $(".navbar-toggler").click(function () {
         $(".collapse.navbar-collapse").toggleClass("show");
         $(".navbar-toggler").toggleClass("collapsed");
         $(".navbar-expand-lg").toggleClass("expanded");
     });
-    $(window).resize(function() {
+    $(window).resize(function () {
         if ($(".collapse.navbar-collapse").hasClass("show")) {
             $(".navbar-toggler").click();
         }
@@ -28,7 +28,7 @@ $(document).ready(() => {
     $.ajax({
         url: queryURL,
         method: "GET"
-    }).then(function(response) {
+    }).then(function (response) {
         var data = {
             labels: [],
             min: [],
