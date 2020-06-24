@@ -19,7 +19,7 @@
 
 
 ## Description of Red Planet Voyagers:
-Looking to vacation to Mars? Check the weather for your stay before you go! (App Name), your daily does of Mars info. View weather trends, forecast, and data charts. View photos for a more enticing visit! 
+Looking to vacation to Mars? Check the weather for your stay before you go! Red Planet Voyagers, your daily dose of Mars info. View weather trends, forecast, and data charts. View photos for a more enticing visit and view upcoming launch dates! 
 
 
 
@@ -33,7 +33,7 @@ App is live on https://team-5-project-2.herokuapp.com/
 
 
 ## Usage: 
-Although constantly evolving, (App Name) is ahead of the Mars travel trend by allowing users to access Mars weather information and photo of the day before their selected travel.
+Although constantly evolving, Red Planet Voyagers is ahead of the Mars travel trend by allowing users to access Mars weather information and photo of the day before their selected travel.
 
 
 
@@ -58,4 +58,4 @@ cheryld433, FenixTrax18, AFeese, mathcodes
 
 
 ### Questions? Contact:
-(enter contact information for all contributors)
+
