@@ -34,6 +34,11 @@ h5 {
     color: #ee5f00;
 }
 
+.chart,
+#chart {
+    text-align: center;
+}
+
 
 /*-----PAGE BUTTONS-----*/
 
@@ -44,7 +49,12 @@ h5 {
     margin: 5px;
 }
 
-.btn-default:hover,
+.btn-default:hover {
+    background-color: black;
+    color: #ee5f00;
+}
+
+,
 .btn-default:focus,
 .btn-group.open .dropdown-toggle.btn-default {
     background-color: black;
