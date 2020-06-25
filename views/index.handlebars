@@ -7,7 +7,7 @@
       <div class="col-md-12">
         <h2 class="welcome">Welcome, {{email}}</h2>
       </div>
-      <div class="entry">
+      <div class="entry" id="entry">
         {{#if notification}}
           <h4 class="radioResponse">You have chosen to receive updates for upcoming SpaceX Rocket launches.</h4>
         {{else}}
@@ -18,10 +18,15 @@
   </div>
   
   <!--Season should append here yet is repeating right now-->
-  <h3><div class="season" id="season"></div>
-  ...Time for a vacation</h3>
+  {{!-- <h3><div class="season" id="season"></div>
+  ...Time for a vacation</h3> --}}
 
   <br>
+  <br>
+  <br>
+<div class="container">
+<h3><div class="season" id="season"></div>
+  ...Time for a vacation</h3>
 
   <div class="container card-group">
     <div class="row">
@@ -53,6 +58,7 @@
 
     </div>
   </div>
+</div>
 </div>
 
 <br><br><br>

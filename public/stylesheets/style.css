@@ -106,6 +106,7 @@
                                      border-radius: 4px;
                                  }
                                  
+
                                  #topBtn:hover {
                                      background-color: #ee5f00;
                                      color: black;
@@ -311,9 +312,7 @@ width: 100%; */
                                  }
                                  /*----------------Exploration Facts Div----------------*/
                                  
-                                 .center {
-                                     text-align: center;
-                                 }
+                                
                                  /*----------------Cards----------------*/
                                  
                                  .cards {
@@ -348,7 +347,13 @@ width: 100%; */
                                      background-color: rgb(28, 37, 37);
                                      z-index: 2;
                                  }
-                                 
+
+                                 .radioResponse {
+                                     text-align: center;
+                                 }
+                                 .entry {
+                                     text-align: center;
+                                 }
                                  .copyright {
                                      text-align: center;
                                      color: white;
