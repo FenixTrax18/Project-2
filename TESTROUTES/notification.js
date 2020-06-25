@@ -1,5 +1,5 @@
 $(function() {
-    $(“.change - devour”).on(“click”, function(event) {
+    $(“.change).on("submit", function(event) {
         var id = $(this).data(“id”);
         var newNotification = $(this).data(“newNotification”);
         var newDevourState = {
