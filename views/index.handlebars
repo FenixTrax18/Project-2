@@ -3,15 +3,15 @@
 <!--Everything is good here-->
 <div class="membersParallax">
   <div class="container">
-    <div class="row">
+    <div class="row rowindex">
       <div class="col-md-12">
         <h2 class="welcome">Welcome, {{email}}</h2>
       </div>
       <div class="entry">
         {{#if notification}}
-          <h4 class="radioResponse">You have chosen to receive updates for upcoming SpaceX Rocket launches.</h4>
+          <h4 class="radioResponse row rowindexBoolean">You have chosen to receive updates for upcoming SpaceX Rocket launches.</h4>
         {{else}}
-          <h4 class="radioResponse">You have chosen NOT to receive updates for upcoming SpaceX Rocket launches.</h4>
+          <h4 class="radioResponse row rowindexBoolean">You have chosen NOT to receive updates for upcoming SpaceX Rocket launches.</h4>
         {{/if}}
       </div>
     </div>
@@ -24,7 +24,7 @@
   <br>
 
   <div class="container card-group">
-    <div class="row">
+    <div class="row rowindex">
       <div class="card col-sm-12 col-md-1">
       </div>
 
