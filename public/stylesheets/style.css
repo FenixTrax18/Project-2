@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+    /*-----------------FORMS------------------
+=======
 /*-----------------FORMS----------------------
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 -------------------PAGE ELEMENTS--------------
 -------------------BUTTONS--------------------
 -------------------AUTO IMAGE OF THE DAY------
@@ -13,7 +17,21 @@
 -------------------CHART--------------------*/
 
 
+<<<<<<< HEAD
+/*----------------FORMS---------------------*/
+
+h2.welcome {
+    text-align: center;
+    color: #ee5f00;
+    margin-top: 5px;
+}
+
+.radioResponse {
+    color: white;
+}
+=======
 /*-------------------FORMS---------------------*/
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 
 form.signup,
 form.login {
@@ -131,7 +149,8 @@ img {
 
 .navBox {
     border: .5px solid #ee5f00;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 3;
 }
 
 .navbar-toggler {
@@ -190,8 +209,23 @@ img {
     border-width: initial;
 }
 
+<<<<<<< HEAD
+.navbar-nav a:hover,
+a.SU2:hover {
+    color: white;
+    text-shadow: #ee5f00;
+    border-radius: 30%;
+    transition: 1.0s;
+    border-color: #ee5f00;
+}
+
+.SU2 {
+    color: black;
+    align-items: center;
+=======
 .navbar-nav a:hover {
     color: #0f7864;
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 }
 
 @media (min-width: 768px) {
@@ -207,11 +241,15 @@ img {
 }
 
 
+<<<<<<< HEAD
+/*.navbar-default {background-color: #111;border-color: #222;} */
+=======
 /*
 .navbar-default {
     background-color: #111;
     border-color: #222;
 } */
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 
 
 /* ----------------Parallax---------------- */
@@ -233,7 +271,7 @@ img {
 .logoParallax {
     background-image: url("../img/stars.jpg");
     /* height: 100%;
-    width: 100%; */
+width: 100%; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -389,7 +427,11 @@ a.gh:hover {
 /* selected link */
 
 a.gh:active {
+<<<<<<< HEAD
+    color: #ee5f00;
+=======
     color: rgb(255, 251, 0);
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 }
 
 #loginForm {
@@ -407,12 +449,12 @@ a.gh:active {
 
 
 /* #sphere-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    width: 100%;
-    height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+width: 100%;
+height: 100vh;
 } */
 
 .animation-wrapper {
@@ -446,9 +488,32 @@ a.gh:active {
 /*----------------CHART----------------*/
 
 .chart {
+<<<<<<< HEAD
+    width: 100%;
+    /* margin-left: 10%;
+margin-bottom: 10%; */
+    color: #ee5f00;
+    text-align: center;
+}
+
+@media(min-width: 1200px) .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 2800px;
+=======
     width: 80%;
     margin-left: 10%;
     margin-bottom: 10%;
     color: #ee5f00;
     text-align: center;
+>>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 }
+
+@media (min-width: 1200px) .container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+    max-width: 1337px;
