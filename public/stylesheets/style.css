@@ -238,7 +238,7 @@
                                  .logoParallax {
                                      background-image: url("../img/stars.jpg");
                                      /* height: 100%;
-width: 100%; */
+                                        width: 100%; */
                                      background-attachment: fixed;
                                      background-position: center;
                                      background-repeat: no-repeat;
@@ -334,6 +334,7 @@ width: 100%; */
                                      /* border: 1px solid rgba(0,0,0,.125); */
                                      border-radius: .25rem;
                                  }
+
                                  /*----------------FOOTER----------------*/
                                  
                                  .footer {
@@ -429,8 +430,8 @@ width: 100%; */
                                  
                                  .chart {
                                      width: 100%;
-                                     /* margin-left: 10%;
-                                        margin-bottom: 10%; */
+                                     /* margin-left: 10%;*/
+                                     margin-bottom: 50px; 
                                      color: #ee5f00;
                                      text-align: center;
                                  }
