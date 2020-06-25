@@ -385,14 +385,19 @@ width: 100%; */
                                      z-index: 1;
                                  }
                                  /*----------------SPHERE----------------*/
+                                 /* {{!-- Project: juliangarnier https://github.com/juliangarnier/anime
+                                    Copyright (c) 2019 Julian Garnier (hello@julian.gr)
+                                    License (MIT) https://github.com/juliangarnier/anime/blob/master/LICENSE.md --}}
+                                    {{!-- <div id="sphere-body"> --}} */
+
                                  /* #sphere-body {
-display: flex;
-justify-content: center;
-align-items: center;
-position: absolute;
-width: 100%;
-height: 100vh;
-} */
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    position: absolute;
+                                    width: 100%;
+                                    height: 100vh;
+                                    } */
                                  
                                  .animation-wrapper {
                                      width: 50%;
@@ -425,7 +430,7 @@ height: 100vh;
                                  .chart {
                                      width: 100%;
                                      /* margin-left: 10%;
-margin-bottom: 10%; */
+                                        margin-bottom: 10%; */
                                      color: #ee5f00;
                                      text-align: center;
                                  }
