@@ -1,13 +1,4 @@
-<<<<<<< HEAD
-        <<<<<<< HEAD
-/*-----------------FORMS------------------
-=======
-<<<<<<< HEAD
-    /*-----------------FORMS------------------
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
-=======
 /*-----------------FORMS----------------------
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 -------------------PAGE ELEMENTS--------------
 -------------------BUTTONS--------------------
 -------------------AUTO IMAGE OF THE DAY------
@@ -21,15 +12,8 @@
 -------------------SPHERE---------------------
 -------------------CHART--------------------*/
 
-<<<<<<< HEAD
 /*----------------FORMS---------------------*/
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-/*----------------FORMS---------------------*/
-
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
 h2.welcome {
     text-align: center;
     color: #ee5f00;
@@ -39,15 +23,11 @@ h2.welcome {
 .radioResponse {
     color: white;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
-=======
+
 /*-------------------FORMS---------------------*/
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
 
->>>>>>>75e6e4a675f0f402853b37553cc3de45f6a4430a form.signup,
+form.signup,
 form.login {
     margin-top: 50px;
 }
@@ -223,417 +203,351 @@ img {
     border-width: initial;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD .navbar-nav a:hover,
-=======
-<<<<<<< HEAD
 .navbar-nav a:hover,
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
+.navbar-nav a:hover,
 a.SU2:hover {
     color: white;
     text-shadow: #ee5f00;
     border-radius: 30%;
     transition: 1.0s;
     border-color: #ee5f00;
-<<<<<<< HEAD
-=======
 }
 
 .SU2 {
     color: black;
     align-items: center;
-=======
-.navbar-nav a:hover {
-    color: #0f7864;
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
-}
-
-.SU2 {
-    color: black;
-    align-items: center;
-    =======.navbar-nav a:hover {
+    .navbar-nav a:hover {
         color: #0f7864;
-        >>>>>>>75e6e4a675f0f402853b37553cc3de45f6a4430a
+        75e6e4a675f0f402853b37553cc3de45f6a4430a
     }
-    @media (min-width: 768px) {
-        .navbar-toggler {
-            display: none;
+    .SU2 {
+        color: black;
+        align-items: center;
+        .navbar-nav a:hover {
+            color: #0f7864;
+            75e6e4a675f0f402853b37553cc3de45f6a4430a
         }
-    }
-<<<<<<< HEAD
-    @media (max-width: 767px) {
-        .navbar-collapse.collapse {
-            display: none !important;
+        @media (min-width: 768px) {
+            .navbar-toggler {
+                display: none;
+            }
         }
-    }
-    <<<<<<< HEAD
-    /*.navbar-default {background-color: #111;border-color: #222;} */
-    =======/*
-=======
+        @media (max-width: 767px) {
+            .navbar-collapse.collapse {
+                display: none !important;
+            }
+        }
+        /*.navbar-default {background-color: #111;border-color: #222;} */
+        /*
+
 }
 
 
-<<<<<<< HEAD
+
 /*.navbar-default {background-color: #111;border-color: #222;} */
-=======
-/*
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
+        /*
+
 .navbar-default {
     background-color: #111;
     border-color: #222;
 } */
-<<<<<<< HEAD
-    >>>>>>>75e6e4a675f0f402853b37553cc3de45f6a4430a
-    /* ----------------Parallax---------------- */
-    .parallax {
-        background-image: url("../img/stars.jpg");
-        height: 100%;
-        width: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 100px;
-    }
-    /* ----------------Homepage parallax---------------- */
-    .logoParallax {
-        background-image: url("../img/stars.jpg");
-        /* height: 100%;
+        75e6e4a675f0f402853b37553cc3de45f6a4430a
+        /* ----------------Parallax---------------- */
+        .parallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px;
+        }
+        /* ----------------Homepage parallax---------------- */
+        .logoParallax {
+            background-image: url("../img/stars.jpg");
+            /* height: 100%;
 width: 100%; */
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 70px;
-        /* padding-bottom: 20px; */
-    }
-    /* ----------------Voyagers Logo---------------- */
-    .pageLogo {
-        text-align: center;
-        margin-top: 20px;
-    }
-    /* ---Main page bottom - Mars Exploration Div--- */
-    .parallaxExploration {
-        background-image: url("../img/stars.jpg");
-        height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        /* padding: 40px; */
-    }
-    /*----------------Log In Parallax----------------*/
-    .logSignParallax {
-        background-image: url("../img/stars.jpg");
-        height: 100%;
-        /* background-attachment: fixed; */
-        background-position: center;
-        background-repeat: repeat;
-        background-size: cover;
-        padding-top: 20px;
-    }
-    .exploreLogo {
-        text-align: center;
-        /* margin-top: 20px; */
-    }
-    .launchParallax {
-        background-image: url("../img/stars.jpg");
-        height: 100%;
-        width: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding: 100px;
-        padding-top: 50px;
-    }
-    .launchTitle {
-        text-align: center;
-        font-size: 50px;
-    }
-    /*----------------Members page parallax----------------*/
-    .membersParallax {
-        background-image: url("../img/stars.jpg");
-        height: 100%;
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        padding-top: 80px;
-        padding-bottom: 20px;
-        text-align: center;
-    }
-    /*----------------Exploration Facts Div----------------*/
-    .center {
-        text-align: center;
-    }
-    /*----------------Cards----------------*/
-    .cards {
-        justify-content: center;
-    }
-    .card {
-        position: relative;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        min-width: 0;
-        word-wrap: break-word;
-        /* background-color: #fff; */
-        background-color: transparent;
-        background-clip: border-box;
-        /* border: 1px solid rgba(0,0,0,.125); */
-        border-radius: .25rem;
-    }
-    /*----------------FOOTER----------------*/
-    .footer {
-        position: fixed;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        width: 100%;
-        /* height: 60px; Set the fixed height of the footer here */
-        /* line-height: 60px; */
-        /*Vertically center the text there*/
-        background-color: rgb(28, 37, 37);
-        z-index: 2;
-    }
-    .copyright {
-        text-align: center;
-        color: white;
-        padding-top: 10px;
-    }
-    /* unvisited link */
-    a.gh:link {
-        color: #ee5f00;
-    }
-    /* visited link */
-    a.gh:visited {
-        color: #ee5f00;
-    }
-    /* mouse over link */
-    a.gh:hover {
-        color: white;
-    }
-    /* selected link */
-    a.gh:active {
-        <<<<<<< HEAD color: #ee5f00;
-        =======color: rgb(255, 251, 0);
-        >>>>>>>75e6e4a675f0f402853b37553cc3de45f6a4430a
-    }
-    #loginForm {
-        margin-top: 100px;
-        z-index: 1;
-    }
-    #signupForm {
-        /* margin-top: 100px; */
-        z-index: 1;
-    }
-    /*----------------SPHERE----------------*/
-    /* #sphere-body {
-=======
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 70px;
+            /* padding-bottom: 20px; */
+        }
+        /* ----------------Voyagers Logo---------------- */
+        .pageLogo {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* ---Main page bottom - Mars Exploration Div--- */
+        .parallaxExploration {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding: 40px; */
+        }
+        /*----------------Log In Parallax----------------*/
+        .logSignParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            padding-top: 20px;
+        }
+        .exploreLogo {
+            text-align: center;
+            /* margin-top: 20px; */
+        }
+        .launchParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px;
+            padding-top: 50px;
+        }
+        .launchTitle {
+            text-align: center;
+            font-size: 50px;
+        }
+        /*----------------Members page parallax----------------*/
+        .membersParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 80px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        /*----------------Exploration Facts Div----------------*/
+        .center {
+            text-align: center;
+        }
+        /*----------------Cards----------------*/
+        .cards {
+            justify-content: center;
+        }
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            /* background-color: #fff; */
+            background-color: transparent;
+            background-clip: border-box;
+            /* border: 1px solid rgba(0,0,0,.125); */
+            border-radius: .25rem;
+        }
+        /*----------------FOOTER----------------*/
+        .footer {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            /* height: 60px; Set the fixed height of the footer here */
+            /* line-height: 60px; */
+            /*Vertically center the text there*/
+            background-color: rgb(28, 37, 37);
+            z-index: 2;
+        }
+        .copyright {
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+        /* unvisited link */
+        a.gh:link {
+            color: #ee5f00;
+        }
+        /* visited link */
+        a.gh:visited {
+            color: #ee5f00;
+        }
+        /* mouse over link */
+        a.gh:hover {
+            color: white;
+        }
+        /* selected link */
+        a.gh:active {
+            color: #ee5f00;
+            color: rgb(255, 251, 0);
+        }
+        #loginForm {
+            margin-top: 100px;
+            z-index: 1;
+        }
+        #signupForm {
+            /* margin-top: 100px; */
+            z-index: 1;
+        }
+        /*----------------SPHERE----------------*/
+        /* #sphere-body {
+
+ 
 
 
 /* ----------------Parallax---------------- */
-
-.parallax {
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-}
-
-
-/* ----------------Homepage parallax---------------- */
-
-.logoParallax {
-    background-image: url("../img/stars.jpg");
-    /* height: 100%;
+        .parallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px;
+        }
+        /* ----------------Homepage parallax---------------- */
+        .logoParallax {
+            background-image: url("../img/stars.jpg");
+            /* height: 100%;
 width: 100%; */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 70px;
-    /* padding-bottom: 20px; */
-}
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 70px;
+            /* padding-bottom: 20px; */
+        }
+        /* ----------------Voyagers Logo---------------- */
+        .pageLogo {
+            text-align: center;
+            margin-top: 20px;
+        }
+        /* ---Main page bottom - Mars Exploration Div--- */
+        .parallaxExploration {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            /* padding: 40px; */
+        }
+        /*----------------Log In Parallax----------------*/
+        .logSignParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            /* background-attachment: fixed; */
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            padding-top: 20px;
+        }
+        .exploreLogo {
+            text-align: center;
+            /* margin-top: 20px; */
+        }
+        .launchParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            width: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 100px;
+            padding-top: 50px;
+        }
+        .launchTitle {
+            text-align: center;
+            font-size: 50px;
+        }
+        /*----------------Members page parallax----------------*/
+        .membersParallax {
+            background-image: url("../img/stars.jpg");
+            height: 100%;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding-top: 80px;
+            padding-bottom: 20px;
+            text-align: center;
+        }
+        /*----------------Exploration Facts Div----------------*/
+        .center {
+            text-align: center;
+        }
+        /*----------------Cards----------------*/
+        .cards {
+            justify-content: center;
+        }
+        .card {
+            position: relative;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            min-width: 0;
+            word-wrap: break-word;
+            /* background-color: #fff; */
+            background-color: transparent;
+            background-clip: border-box;
+            /* border: 1px solid rgba(0,0,0,.125); */
+            border-radius: .25rem;
+        }
+        /*----------------FOOTER----------------*/
+        .footer {
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            /* height: 60px; Set the fixed height of the footer here */
+            /* line-height: 60px; */
+            /*Vertically center the text there*/
+            background-color: rgb(28, 37, 37);
+            z-index: 2;
+        }
+        .copyright {
+            text-align: center;
+            color: white;
+            padding-top: 10px;
+        }
+        /* unvisited link */
+        a.gh:link {
+            color: #ee5f00;
+        }
+        /* visited link */
+        a.gh:visited {
+            color: #ee5f00;
+        }
+        /* mouse over link */
+        a.gh:hover {
+            color: white;
+        }
+        /* selected link */
+        a.gh:active {
+            color: #ee5f00;
+        }
+        #loginForm {
+            margin-top: 100px;
+            z-index: 1;
+        }
+        #signupForm {
+            /* margin-top: 100px; */
+            z-index: 1;
+        }
+        /*----------------SPHERE----------------*/
+        /* #sphere-body {
 
-
-/* ----------------Voyagers Logo---------------- */
-
-.pageLogo {
-    text-align: center;
-    margin-top: 20px;
-}
-
-
-/* ---Main page bottom - Mars Exploration Div--- */
-
-.parallaxExploration {
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    /* padding: 40px; */
-}
-
-
-/*----------------Log In Parallax----------------*/
-
-.logSignParallax {
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    /* background-attachment: fixed; */
-    background-position: center;
-    background-repeat: repeat;
-    background-size: cover;
-    padding-top: 20px;
-}
-
-.exploreLogo {
-    text-align: center;
-    /* margin-top: 20px; */
-}
-
-.launchParallax {
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 100px;
-    padding-top: 50px;
-}
-
-.launchTitle {
-    text-align: center;
-    font-size: 50px;
-}
-
-
-/*----------------Members page parallax----------------*/
-
-.membersParallax {
-    background-image: url("../img/stars.jpg");
-    height: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 80px;
-    padding-bottom: 20px;
-    text-align: center;
-}
-
-
-/*----------------Exploration Facts Div----------------*/
-
-.center {
-    text-align: center;
-}
-
-
-/*----------------Cards----------------*/
-
-.cards {
-    justify-content: center;
-}
-
-.card {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    /* background-color: #fff; */
-    background-color: transparent;
-    background-clip: border-box;
-    /* border: 1px solid rgba(0,0,0,.125); */
-    border-radius: .25rem;
-}
-
-
-/*----------------FOOTER----------------*/
-
-.footer {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    /* height: 60px; Set the fixed height of the footer here */
-    /* line-height: 60px; */
-    /*Vertically center the text there*/
-    background-color: rgb(28, 37, 37);
-    z-index: 2;
-}
-
-.copyright {
-    text-align: center;
-    color: white;
-    padding-top: 10px;
-}
-
-
-/* unvisited link */
-
-a.gh:link {
-    color: #ee5f00;
-}
-
-
-/* visited link */
-
-a.gh:visited {
-    color: #ee5f00;
-}
-
-
-/* mouse over link */
-
-a.gh:hover {
-    color: white;
-}
-
-
-/* selected link */
-
-a.gh:active {
-<<<<<<< HEAD
-    color: #ee5f00;
-=======
-    color: rgb(255, 251, 0);
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
-}
-
-#loginForm {
-    margin-top: 100px;
-    z-index: 1;
-}
-
-#signupForm {
-    /* margin-top: 100px; */
-    z-index: 1;
-}
-
-
-/*----------------SPHERE----------------*/
-
-
-/* #sphere-body {
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
 display: flex;
 justify-content: center;
 align-items: center;
@@ -641,90 +555,77 @@ position: absolute;
 width: 100%;
 height: 100vh;
 } */
-    .animation-wrapper {
-        width: 50%;
-        padding-bottom: 50%;
-    }
-    .sphere-animation {
-        position: absolute;
-        top: 20%;
-        left: 50%;
-        width: 580px;
-        height: 580px;
-        /* margin: -290px 0 0 -290px; */
-    }
-    .sphere path {
-        fill: url(#sphereGradient);
-        stroke-width: 1px;
-        stroke: rgba(80, 80, 80, .35);
-        backface-visibility: hidden;
-    }
-<<<<<<< HEAD
-    @media (min-width: 500px) {
-        .sphere path {
-            stroke-width: .4px;
+        .animation-wrapper {
+            width: 50%;
+            padding-bottom: 50%;
         }
-    }
-    /*----------------CHART----------------*/
-    .chart {
-        width: 100%;
-        /* margin-left: 10%;
+        .sphere-animation {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            width: 580px;
+            height: 580px;
+            /* margin: -290px 0 0 -290px; */
+        }
+        .sphere path {
+            fill: url(#sphereGradient);
+            stroke-width: 1px;
+            stroke: rgba(80, 80, 80, .35);
+            backface-visibility: hidden;
+        }
+        @media (min-width: 500px) {
+            .sphere path {
+                stroke-width: .4px;
+            }
+        }
+        /*----------------CHART----------------*/
+        .chart {
+            width: 100%;
+            /* margin-left: 10%;
 margin-bottom: 10%; */
-        color: #ee5f00;
-        text-align: center;
-    }
-    @media(min-width: 1200px) .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 2800px;
-        width: 80%;
-        margin-left: 10%;
-        margin-bottom: 10%;
-        color: #ee5f00;
-        text-align: center;
-    }
-    @media (min-width: 1200px) .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 1337px;
-=======
-}
-
-
-/*----------------CHART----------------*/
-
-.chart {
-<<<<<<< HEAD
-    width: 100%;
-    /* margin-left: 10%;
+            color: #ee5f00;
+            text-align: center;
+        }
+        @media(min-width: 1200px) .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 2800px;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            text-align: center;
+        }
+        @media (min-width: 1200px) .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 1337px;
+        }
+        /*----------------CHART----------------*/
+        .chart {
+            width: 100%;
+            /* margin-left: 10%;
 margin-bottom: 10%; */
-    color: #ee5f00;
-    text-align: center;
-}
-
-@media(min-width: 1200px) .container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-    max-width: 2800px;
-=======
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-    color: #ee5f00;
-    text-align: center;
->>>>>>> 75e6e4a675f0f402853b37553cc3de45f6a4430a
-}
-
-@media (min-width: 1200px) .container,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-    max-width: 1337px;
->>>>>>> efeb90ad6069b6f5055f301bcf26a91fd194a868
+            color: #ee5f00;
+            text-align: center;
+        }
+        @media(min-width: 1200px) .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 2800px;
+            width: 80%;
+            margin-left: 10%;
+            margin-bottom: 10%;
+            text-align: center;
+        }
+        @media (min-width: 1200px) .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+            max-width: 1337px;
