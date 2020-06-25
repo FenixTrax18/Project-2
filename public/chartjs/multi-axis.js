@@ -55,7 +55,7 @@ function createBarChart(data) {
             responsive: true,
             title: {
                 display: true,
-                text: 'Mars 5-Day Forecast',
+                text: 'Mars 5-Day Min/Max Temperatures',
                 fontColor: '#ee5f00',
                 fontSize: 30
             },
