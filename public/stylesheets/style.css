@@ -17,6 +17,7 @@
 
 .MF {
     text-align: center;
+    padding-left: 15px;
 }
 
 h2.welcome {
@@ -516,3 +517,4 @@ height: 100vh;
 .dayphoto {
     text-align: right;
 }
+
