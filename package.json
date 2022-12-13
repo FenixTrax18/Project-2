@@ -16,7 +16,7 @@
     "dependencies": {
         "bcryptjs": "2.4.3",
         "chartjs": "^0.3.24",
-        "express": "^4.17.0",
+        "express": "^4.17.3",
         "express-handlebars": "^4.0.4",
         "express-session": "^1.17.1",
         "mysql2": "^1.7.0",
